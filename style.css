@@ -10,6 +10,8 @@
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
     color: rgb(223 55 91);!important;
     text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
     font-weight: bold;
 }
 h1 {
@@ -53,6 +55,19 @@ body {
 }
 
 
+.navbar-light .navbar-nav .nav-link:hover {
+    color:#DF375B;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-decoration-thickness: 0.15em;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+
+
 /* home_______________________________________________________*/
 /* main {
     background-image: url("images/wawe.svg");
@@ -71,6 +86,12 @@ body {
     background-position-y: top;
 }
  */
+/* Vivere la città____________________________________________*/
+.sfondovivere {
+    background-image: url("images/ViverelaCittà/Header_VivereLaCittà.png");
+    height: 617px; /* Sistemare l'altezza*/
+}
+
 
 /* Quartieri____________________________________________*/
 
