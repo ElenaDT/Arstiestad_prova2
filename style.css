@@ -189,17 +189,16 @@ p.d-block {
 
 .child_surrealismo {
     position: absolute;
-    top: 109%;
-    left: 65%;
+    top: 101%;
+    left: 70%;
     height: 20%;
     z-index: 1001;
     transform: translateY(-90vh);
 }
 
 
-@media only screen and (max-width: 1000px) {
-
-    .child_surrealismo {
+@media only screen and (max-width: 1150px) {
+    .child_surrealismo, .child {
         display: none;
     }
 }
@@ -212,13 +211,12 @@ p.d-block {
     width: 100%;
 }
 
+
 .onda-surrealismo {
     position: relative;
     z-index: 1000;
     height: 100%;
     width: 100%;
-    object-fit: cover;
-    object-position: bottom;
 }
 
 .z-index-surrealismo {
@@ -227,12 +225,11 @@ p.d-block {
 }
 
 .div-onda-surrealismo {
-    background: rgb(99, 133, 187);
-    background: -moz-linear-gradient(0deg, rgba(99, 133, 187, 1) 0%, rgba(88, 125, 180, 1) 5%);
-    background: -webkit-linear-gradient(0deg, rgba(99, 133, 187, 1) 0%, rgba(88, 125, 180, 1) 5%);
-    background: linear-gradient(0deg, rgba(99, 133, 187, 1) 0%, rgba(88, 125, 180, 1) 5%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6385bb", endColorstr="#587db4", GradientType=1);
-    height: 220px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1002;
+    height: 250px;
     background-size: 1920px;
 }
 
