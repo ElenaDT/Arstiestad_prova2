@@ -189,24 +189,22 @@ p.d-block {
 
 .child_surrealismo {
     position: absolute;
-    top: 420%;
-    right: 13%;
-    height: 380px;
+    top: 108%;
+    left: 65%;
+    height: 20%;
     z-index: 1001;
     transform: translateY(-90vh);
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1000px) {
 
-    .child_surrealismo, .child {
+    .child_surrealismo {
         display: none;
     }
 }
 
-
-
-.ondina-parent {
+.ondina-surr {
     margin-top: -20%;
     position: relative;
     z-index: 1002;
