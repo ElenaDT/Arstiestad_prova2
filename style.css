@@ -176,11 +176,6 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#587db4",endColorstr="#3663a0",GradientType=1);
 }
 
-@media screen and (max-width: 800px) {
-    .onda-surrealismo {
-        /*   */
-    }
-}
 p.d-block {
     max-width: 62%;
 }
@@ -195,46 +190,37 @@ p.d-block {
 .child_surrealismo {
     position: absolute;
     top: 100vh;
-    right: 30vh;
+    right: 20vh;
     max-height: 400px;
     z-index: 1500;
     transform: translateY(-90vh);
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 600px) {
 
-    .child_surrealismo {
-        position: absolute;
-        top: 100vh;
-        right: 0;
-        max-height: 400px;
-        z-index: 1500;
-        transform: translateY(-90vh);
+    .child_surrealismo, .child {
+        display: none;
     }
 }
 
-.bg1 {
-    height: 100%;
-    width: 1920px;
-}
+
 
 .ondina-parent {
-    margin-top: -350px;
+    margin-top: -22%;
     position: relative;
     z-index: 2000;
+    height: 100%;
+    width: 100%;
 }
 
-.ondina {
+.onda-surrealismo {
     position: relative;
     z-index: 1000;
     height: 100%;
-    width: 1920px;
-}
-
-
-.overflow-hidden {
-    overflow-x: hidden;
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 .z-index-surrealismo {
@@ -243,7 +229,11 @@ p.d-block {
 }
 
 .div-onda-surrealismo {
-    background-color: #587db4;
+    background: rgb(99, 133, 187);
+    background: -moz-linear-gradient(0deg, rgba(99, 133, 187, 1) 0%, rgba(88, 125, 180, 1) 5%);
+    background: -webkit-linear-gradient(0deg, rgba(99, 133, 187, 1) 0%, rgba(88, 125, 180, 1) 5%);
+    background: linear-gradient(0deg, rgba(99, 133, 187, 1) 0%, rgba(88, 125, 180, 1) 5%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6385bb", endColorstr="#587db4", GradientType=1);
     height: 220px;
     background-size: 1920px;
 }
@@ -268,5 +258,5 @@ p.d-block {
     background: -moz-linear-gradient(0deg, rgba(103,125,42,1) 0%, rgba(255,255,255,0) 34%);
     background: -webkit-linear-gradient(0deg, rgba(103,125,42,1) 0%, rgba(255,255,255,0) 34%);
     background: linear-gradient(0deg, rgba(103,125,42,1) 0%, rgba(255,255,255,0) 34%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#677d2a",endColorstr="#ffffff",GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#677d2a", endColorstr="#ffffff", GradientType=1)
 }
