@@ -137,11 +137,13 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
     top: 0;
 
 }
-.onda .img-fluid {
+
+.onda, .img-fluid {
     width: 100%;
 }
-.text-orange{
-    color:#E66848;
+
+.text-orange {
+    color: #E66848;
 }
 /* surrealismo*/
 
@@ -149,6 +151,7 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
     position: relative; /* serve per posizionarvi sopra l'onda arancione*/
 }
 .surrealismo{
+
     background-image: url("images/Quartieri/header_surrealismo.png");
     background-size:cover;
     height: 80vh;
@@ -172,11 +175,11 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
     background: linear-gradient(0deg, rgba(88,125,180,1) 0%, rgba(54,99,160,1) 25%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#587db4",endColorstr="#3663a0",GradientType=1);
 }
-.onda-surrealismo{
-    background-image: url("images/Quartieri/onda-surrealismo.png");
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+@media screen and (max-width: 800px) {
+    .onda-surrealismo {
+        /*   */
+    }
 }
 p.d-block {
     max-width: 62%;
@@ -188,32 +191,60 @@ p.d-block {
 .blue-text {
     color: #3663A0;
 }
+
 .child_surrealismo {
     position: absolute;
-    top:100%;
-    right:12%;
+    top: 115vh;
+    right: 30vh;
     max-height: 400px;
-    z-index: 100;
-    transform: translateY(-40%);
+    z-index: 0;
+    transform: translateY(-90vh);
 }
-.child_surrealismo::after{
-    mask-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/sun.svg);
-    mask-size: 100vmin;
-    mask-repeat: no-repeat;
-    mask-position: center;
+
+
+/*.onda-surrealismo::after {
+   content: url("images/Quartieri/Excludel-cropped.svg");
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    display: block;
+    top: 40vh;
+
+}*/
+.bg1 {
+    height: 100%;
+    width: 1920px;
 }
+
+.ondina-parent {
+    margin-top: -390px;
+}
+
+.ondina {
+    position: relative;
+    z-index: 1000;
+    height: 100%;
+    width: 1920px;
+}
+
+.overflow-hidden {
+    overflow-x: hidden;
+}
+
 /*__________- street art__________________*/
 
 .section-street-art {
     background-color: #677D2A;
-
+    margin-top: 200px;
 }
+
 .street-art {
     background-image: url("images/Quartieri/streetart.png");
-    background-size:cover;
+    background-size: cover;
     height: 80vh;
     position: relative;
-    z-index: 0;
+
 }
 .street-art-gradient{
     height: inherit;
