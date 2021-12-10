@@ -187,11 +187,11 @@ p.d-block {
     color: #3663A0;
 }
 
-.child_surrealismo {
+.child_surrealismo img {
     position: absolute;
-    top: 100vh;
+    top: 135vh;
     right: 20vh;
-    max-height: 400px;
+    height: 380px;
     z-index: 1500;
     transform: translateY(-90vh);
 }
@@ -207,7 +207,7 @@ p.d-block {
 
 
 .ondina-parent {
-    margin-top: -22%;
+    margin-top: -20%;
     position: relative;
     z-index: 2000;
     height: 100%;
