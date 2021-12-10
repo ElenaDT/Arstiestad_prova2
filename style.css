@@ -194,31 +194,35 @@ p.d-block {
 
 .child_surrealismo {
     position: absolute;
-    top: 115vh;
+    top: 100vh;
     right: 30vh;
     max-height: 400px;
-    z-index: 0;
+    z-index: 1500;
     transform: translateY(-90vh);
 }
 
 
-/*.onda-surrealismo::after {
-   content: url("images/Quartieri/Excludel-cropped.svg");
-    position: absolute;
-    z-index: 1;
-    height: 100%;
-    width: 100%;
-    display: block;
-    top: 40vh;
+@media only screen and (max-width: 1000px) {
 
-}*/
+    .child_surrealismo {
+        position: absolute;
+        top: 100vh;
+        right: 0;
+        max-height: 400px;
+        z-index: 1500;
+        transform: translateY(-90vh);
+    }
+}
+
 .bg1 {
     height: 100%;
     width: 1920px;
 }
 
 .ondina-parent {
-    margin-top: -390px;
+    margin-top: -350px;
+    position: relative;
+    z-index: 2000;
 }
 
 .ondina {
@@ -228,8 +232,20 @@ p.d-block {
     width: 1920px;
 }
 
+
 .overflow-hidden {
     overflow-x: hidden;
+}
+
+.z-index-surrealismo {
+    position: relative;
+    z-index: 1000000;
+}
+
+.div-onda-surrealismo {
+    background-color: #587db4;
+    height: 220px;
+    background-size: 1920px;
 }
 
 /*__________- street art__________________*/
