@@ -173,12 +173,14 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
 }
 
 p.d-block {
-    max-width: 62%;
+    max-width: 55vw;
 }
-.two-lines{
+
+.two-lines {
     max-width: 70%;
     text-align: center;
 }
+
 .blue-text {
     color: #3663A0;
 }
@@ -187,13 +189,32 @@ p.d-block {
     position: absolute;
     top: 101%;
     left: 70%;
-    height: 20%;
     z-index: 1001;
     transform: translateY(-90vh);
 }
 
-@media only screen and (max-width: 1150px) {
-    .child_surrealismo, .child {
+@media only screen and (max-width: 1350px) {
+    .child_surrealismo {
+        top: 122%
+    }
+
+    .child_surrealismo img {
+        max-height: 400px;
+    }
+}
+
+@media only screen and (max-width: 1165px) {
+    .child_surrealismo {
+        top: 149%;
+    }
+
+    .child_surrealismo img {
+        max-height: 300px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .child_surrealismo {
         display: none;
     }
 }
@@ -220,6 +241,7 @@ p.d-block {
     z-index: 1001; /* testo sullo stesso livello del child*/
 }
 
+
 .z-index-surrealismo {
     position: relative;
     z-index: 1000000;
@@ -239,6 +261,10 @@ p.d-block {
 .section-street-art {
     background-color: #677D2A;
     margin-top: 200px;
+}
+
+.margin-top {
+    margin-top: -500px;
 }
 
 .street-art {
