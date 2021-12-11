@@ -169,11 +169,7 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
 }
 
 .section-surrealismo {
-    background: rgb(88,125,180);
-    background: -moz-linear-gradient(0deg, rgba(88,125,180,1) 0%, rgba(54,99,160,1) 25%);
-    background: -webkit-linear-gradient(0deg, rgba(88,125,180,1) 0%, rgba(54,99,160,1) 25%);
-    background: linear-gradient(0deg, rgba(88,125,180,1) 0%, rgba(54,99,160,1) 25%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#587db4",endColorstr="#3663a0",GradientType=1);
+    background-color: #3663a0;
 }
 
 p.d-block {
