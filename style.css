@@ -196,7 +196,6 @@ p.d-block {
     transform: translateY(-90vh);
 }
 
-
 @media only screen and (max-width: 1150px) {
     .child_surrealismo, .child {
         display: none;
@@ -211,12 +210,18 @@ p.d-block {
     width: 100%;
 }
 
-
 .onda-surrealismo {
     position: relative;
     z-index: 1000;
     height: 100%;
     width: 100%;
+}
+
+.text-onda-surrealismo {
+    position: absolute;
+    top: 5%;
+    right: auto;
+    z-index: 1001; /* testo sullo stesso livello del child*/
 }
 
 .z-index-surrealismo {
