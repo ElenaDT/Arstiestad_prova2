@@ -15,15 +15,13 @@
     font-weight: bold;
 }
 h1 {
-        font-family: 'Comfortaa', cursive;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 48px; /* OCCORRE MODIFICARE TUTTI I PX IN EM PER RENDERLO RESPONSIVE*/
-        line-height: 54px;
-        margin: 2vw 0;
-
-    }
-
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 54px;
+    margin: 2vw 0;
+}
 h2 {
     font-family: 'Comfortaa', cursive;
     font-style: normal;
@@ -129,11 +127,11 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
 }
 .child {
     position: absolute;
-    top:100%;
-    right:0;
-    max-height: 500px;
+    right: 0;
+    top: 75vh;
+    height: 70vh;
     z-index: 100;
-    transform: translateY(-40%);
+    transform: translateY(-90vh);
 }
 .wave-impressionismo, .wave-surrealismo, .wave-street-art {
     position: absolute;
@@ -147,6 +145,10 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
 
 .text-orange {
     color: #E66848;
+}
+
+.wrap-surrealismo {
+    background-color: #E66848;
 }
 /* surrealismo*/
 
@@ -188,16 +190,26 @@ p.d-block {
 }
 .child_surrealismo {
     position: absolute;
+    top: 107vh;
     left: 70vw;
     height: 70vh;
     z-index: 200;
     transform: translateY(-90vh);
 }
 
-@media only screen and (max-width: 100px) {
+@media only screen and (max-width: 1000px) {
     .child_surrealismo {
-        height: 55vh;
-        left: 58vw;
+        top: 105vh;
+        height: 60vh;
+        left: 68vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .child_surrealismo {
+        top: 113vh;
+        height: 45vh;
+        left: 62vw;
     }
 }
 
@@ -218,7 +230,7 @@ p.d-block {
 
 .text-onda-surrealismo {
     position: absolute;
-    top: 5%;
+    top: 5vh;
     right: auto;
     z-index: 200; /* testo sullo stesso livello del child*/
 }
@@ -226,13 +238,7 @@ p.d-block {
     position: relative;
     z-index: 100;
 }
-.div-onda-surrealismo {
-    position: absolute;
-    top: 0;
-    right: 0;
-    height: 250px;
-    background-size: 1920px;
-}
+
 
 /*__________- street art__________________*/
 
