@@ -123,16 +123,32 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
 }
 .section-impressionismo .container-fluid /* non ho capito la seconda classe*/{
     background: linear-gradient(
-            180deg, rgb(230 103 71) 0%, rgb(241,154,94) 100%);
+            180deg, rgb(230 103 71) 0%, rgb(241, 154, 94) 100%);
 }
+
 .child {
     position: absolute;
     right: 0;
-    top: 75vh;
+    top: 70vh;
     height: 70vh;
     z-index: 100;
     transform: translateY(-90vh);
 }
+
+@media only screen and (max-width: 1000px) {
+    .child {
+        top: 60vh;
+        height: 60vh;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .child, .child_surrealismo {
+        display: none;
+    }
+}
+
+
 .wave-impressionismo, .wave-surrealismo, .wave-street-art {
     position: absolute;
     top: 0;
@@ -254,11 +270,12 @@ p.d-block {
     height: 80vh;
     position: relative;
 }
-.street-art-gradient{
+
+.street-art-gradient {
     height: inherit;
-    background: rgb(103,125,42);
-    background: -moz-linear-gradient(0deg, rgba(103,125,42,1) 0%, rgba(255,255,255,0) 34%);
-    background: -webkit-linear-gradient(0deg, rgba(103,125,42,1) 0%, rgba(255,255,255,0) 34%);
-    background: linear-gradient(0deg, rgba(103,125,42,1) 0%, rgba(255,255,255,0) 34%);
+    background: rgb(103, 125, 42);
+    background: -moz-linear-gradient(0deg, rgba(103, 125, 42, 1) 0%, rgba(255, 255, 255, 0) 34%);
+    background: -webkit-linear-gradient(0deg, rgba(103, 125, 42, 1) 0%, rgba(255, 255, 255, 0) 34%);
+    background: linear-gradient(0deg, rgba(103, 125, 42, 1) 0%, rgba(255, 255, 255, 0) 34%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#677d2a", endColorstr="#ffffff", GradientType=1)
 }
