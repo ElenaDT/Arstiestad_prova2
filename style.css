@@ -62,9 +62,7 @@ body {
     text-decoration-thickness: 0.15em;
 }
 
-.dropdown:hover>.dropdown-menu {
-    display: block;
-}
+
 
 
 
@@ -88,10 +86,15 @@ body {
  */
 /* Vivere la città____________________________________________*/
 .sfondovivere {
-    background-image: url("images/ViverelaCittà/Header_VivereLaCittà.png");
-    height: 617px; /* Sistemare l'altezza*/
+    background: url("images/ViverelaCittà/Header_VivereLaCittà.png") no-repeat;
+    background-size: cover;
+    margin-top: 48px;
+    height: 617px;
+    /* altezza dell'imagine da sistemare*/
 }
-
+.TitlePage {
+    margin-top: 10%;
+}
 
 /* Quartieri____________________________________________*/
 
