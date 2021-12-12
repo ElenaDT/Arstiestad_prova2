@@ -279,3 +279,21 @@ p.d-block {
     background: linear-gradient(0deg, rgba(103, 125, 42, 1) 0%, rgba(255, 255, 255, 0) 34%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#677d2a", endColorstr="#ffffff", GradientType=1)
 }
+
+.form-impressionismo {
+    background-image: url("images/Quartieri/sfondo.png");
+    position: relative;
+}
+
+.bacio {
+    position: absolute;
+    top: 5vh;
+    right: 0;
+    height: 80vh;
+}
+
+#back-to-top {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+}
