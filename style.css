@@ -86,13 +86,12 @@ body {
 .sfondovivere {
     background: url("images/ViverelaCittà/Header_VivereLaCittà.png") no-repeat;
     background-size: cover;
+    background-position: bottom;
     margin-top: 48px;
     height: 617px;
-    /* altezza dell'imagine da sistemare*/
+
 }
-.TitlePage {
-    margin-top: 10%;
-}
+
 
 /* Quartieri____________________________________________*/
 
