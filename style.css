@@ -46,12 +46,37 @@ body {
     font-size: 16px;
     line-height: 150%;
 }
-
+.parigicolor {
+    color: #DF375B;
+    font-weight: bold;
+}
+.lightcolor {
+    color: #F3F9FA;
+    font-weight: bold;
+}
+.darkcolor {
+    color: #333C3F;
+}
+.text24 {
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 28px;
+}
 .btn-light{
     background-color: #F5C042;
     font-weight: bold;
 }
 
+.btnGiallo {
+    border-radius: 40px;
+    box-shadow: 0px 6px 16px rgba(250, 182, 13, 0.5);
+    background-color: #F5C042;
+    font-family: Comfortaa;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 22px;
+    color: #F3F9FA;
+}
 
 .navbar-light .navbar-nav .nav-link:hover {
     color:#DF375B;
@@ -84,12 +109,16 @@ body {
  */
 /* Vivere la città____________________________________________*/
 .sfondovivere {
-    background: url("images/ViverelaCittà/Header_VivereLaCittà.png") no-repeat;
+    background: url("images/ViverelaCittà/Header_VivereLaCittà.svg") no-repeat;
     background-size: cover;
     background-position: bottom;
     margin-top: 48px;
     height: 617px;
+}
 
+.sfondo {
+    background: url("images/ViverelaCittà/sfondo.png") no-repeat;
+    background-size: cover;
 }
 
 
