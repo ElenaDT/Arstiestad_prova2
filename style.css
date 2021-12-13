@@ -195,7 +195,7 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
     background-color: #3663a0;
 }
 p.d-block {
-    max-width: 55vw;
+    max-width: 40vw;
 }
 .two-lines {
     max-width: 70%;
@@ -300,4 +300,8 @@ p.d-block {
 
 footer {
     background-color: #DF375B;
+}
+
+.fit-content {
+    width: fit-content;
 }
