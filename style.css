@@ -50,6 +50,16 @@ body {
     color: #DF375B;
     font-weight: bold;
 }
+
+.zafferanocolor {
+    color: #F5C042;
+    font-weight: bold;
+}
+
+.smeraldocolor {
+    color: #298D9F;
+    font-weight: bold;
+}
 .lightcolor {
     color: #F3F9FA;
     font-weight: bold;
@@ -121,7 +131,22 @@ body {
     background-size: cover;
 }
 
-
+/* Come raggiungerci____________________________________________*/
+.sfondoragg {
+    background: url("images/ComeRaggiungerci/header_COMERAGGIUNGERCI.svg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 48px;
+    height:617px;
+}
+/* Eventi____________________________________________*/
+.sfondoeventi {
+    background: url("images/Eventi/SFONDO_EVENTI.svg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 48px;
+    height:617px;
+}
 /* Quartieri____________________________________________*/
 
 /* impressionismo*/
