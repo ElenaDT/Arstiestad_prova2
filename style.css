@@ -76,7 +76,7 @@ body {
     background-color: #F5C042;
     font-family: Comfortaa, cursive;
     font-style: normal;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 22px;
     color: #F3F9FA;
     position: relative;
@@ -255,15 +255,17 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
 }
 .child_surrealismo {
     position: absolute;
-    top: 63vh;
-    right: 10vw;
+    top: 60vh;
+    right: 9vw;
     height: 57vh;
     z-index: 99;
     transform: translateY(-90vh);
 }
-@media only screen and (max-width: 1000px) {
+
+@media only screen and (max-width: 1200px) {
     .child_surrealismo {
-        height: 52vh; /* child si rimpicciolisce leggermente su schermi più piccoli*/
+        top: 63vh;
+        height: 50vh; /* child si rimpicciolisce leggermente su schermi più piccoli*/
     }
 }
 
@@ -278,15 +280,13 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
 
 .section-street-art {
     background-color: #677D2A;
-    /*margin-top: -97vh;*/
-    /*margin-top: -97vh;*/
     z-index: 0;
 }
 
 .street-art {
     background-image: url("images/Quartieri/streetart.png");
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
     position: relative;
 }
 
@@ -300,6 +300,23 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#677d2a", endColorstr="#ffffff", GradientType=1)
 }
 
+p.d-block {
+    width: 50vw;
+}
+
+@media only screen and (max-width: 1000px) {
+    p.d-block {
+        width: 90vw;
+    }
+
+    p.d-block-tight {
+        width: 40vw;
+    }
+
+    /* occorre aggiustarle bene ma funziona*/
+}
+
+/*form*______________*/
 .form-impressionismo {
     background-image: url("images/Quartieri/sfondo.png");
     position: relative;
