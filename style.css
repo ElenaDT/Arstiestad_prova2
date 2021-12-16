@@ -79,6 +79,8 @@ body {
     font-size: 20px;
     line-height: 22px;
     color: #F3F9FA;
+    position: relative;
+    z-index: 100; /* in maniera tale che i div sottostanti non coprano la sua ombra*/
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -267,7 +269,7 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
 
 .ondina-surr {
     position: absolute;
-    top: 15px;
+    top: 16px;
     left: 0;
     z-index: 100;
 }
