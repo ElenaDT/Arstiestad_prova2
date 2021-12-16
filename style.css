@@ -7,13 +7,6 @@
     border-radius: 30px !important;
 }
 
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: rgb(223 55 91);!important;
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    text-decoration-thickness: 0.15em;
-    font-weight: bold;
-}
 h1 {
     font-family: 'Comfortaa', cursive; /* OCCORRE METTERE LE GRANDEZZE RELATIVE IN TUTTI GLI H E P!!*/
     font-style: normal;
@@ -79,25 +72,36 @@ body {
 
 .btnGiallo {
     border-radius: 40px;
-    box-shadow: 0px 6px 16px rgba(250, 182, 13, 0.5);
+    box-shadow: 0 5px 15px rgba(250, 182, 13, 0.5);
     background-color: #F5C042;
-    font-family: Comfortaa;
+    font-family: Comfortaa, cursive;
     font-style: normal;
     font-size: 20px;
     line-height: 22px;
     color: #F3F9FA;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-    color:#DF375B;
-    text-decoration: underline;
-    text-underline-offset: 5px;
-    text-decoration-thickness: 0.15em;
+.navbar-light .navbar-nav .nav-link {
+    font-weight: bolder;
+    color: #333C3F; /* si dovrebbe sovrascrivere la classe black di bootstrap con questo codice e utilizzarla... */
 }
 
+.navbar-light .navbar-nav .nav-link.active {
+    color: rgb(223 55 91);
+!important;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 0.15em;
+    font-weight: bolder;
+}
 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #DF375B;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    text-decoration-thickness: 0.15em;
 
-
+}
 
 /* home_______________________________________________________*/
 /* main {
@@ -240,80 +244,40 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
     height: inherit;
 }
 
-.wrap-surrealismo {
-    background-color: #3663a0;
-}
-
 .section-surrealismo {
     background-color: #3663a0;
 }
-p.d-block {
-    max-width: 40vw;
-}
-.two-lines {
-    max-width: 70%;
-    text-align: center;
-}
+
 .blue-text {
     color: #3663A0;
 }
 .child_surrealismo {
     position: absolute;
-    top: 107vh;
-    left: 70vw;
-    height: 70vh;
-    z-index: 200;
+    top: 63vh;
+    right: 10vw;
+    height: 57vh;
+    z-index: 99;
     transform: translateY(-90vh);
 }
-
 @media only screen and (max-width: 1000px) {
     .child_surrealismo {
-        top: 105vh;
-        height: 60vh;
-        left: 68vw;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-    .child_surrealismo {
-        top: 113vh;
-        height: 45vh;
-        left: 62vw;
+        height: 52vh; /* child si rimpicciolisce leggermente su schermi più piccoli*/
     }
 }
 
 .ondina-surr {
-    margin-top: -50vh;
-    position: relative;
-    z-index: 300;
-    height: 100vh;
-    width: 100vw;
-}
-
-.onda-surrealismo {
-    position: relative;
-    z-index: 100;
-    height: 100vh;
-    width: 100vw;
-}
-
-.text-onda-surrealismo {
     position: absolute;
-    top: 5vh;
-    right: auto;
-    z-index: 200; /* testo sullo stesso livello del child*/
-}
-.z-index-surrealismo {
-    position: relative;
+    top: 15px;
+    left: 0;
     z-index: 100;
 }
-
 
 /*__________- street art__________________*/
 
 .section-street-art {
     background-color: #677D2A;
-    margin-top: -97vh;
+    /*margin-top: -97vh;*/
+    /*margin-top: -97vh;*/
     z-index: 0;
 }
 
@@ -325,6 +289,7 @@ p.d-block {
 }
 
 .street-art-gradient {
+    position: relative;
     height: inherit;
     background: rgb(103, 125, 42);
     background: -moz-linear-gradient(0deg, rgba(103, 125, 42, 1) 0%, rgba(255, 255, 255, 0) 34%);
