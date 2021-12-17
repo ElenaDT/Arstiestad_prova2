@@ -300,7 +300,6 @@ body {
     background: -webkit-linear-gradient(180deg, rgba(102, 123, 40, 1) 72%, rgba(135, 147, 57, 1) 100%);
     background: linear-gradient(180deg, rgba(102, 123, 40, 1) 72%, rgba(135, 147, 57, 1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#667b28", endColorstr="#879339", GradientType=1);
-    z-index: 0;
 }
 
 .street-art {
