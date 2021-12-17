@@ -3,7 +3,8 @@
 .selector-for-some-widget {
     box-sizing: content-box;
 }
-.rounded-3{
+
+.rounded-3 {
     border-radius: 30px !important;
 }
 
@@ -15,6 +16,7 @@ h1 {
     line-height: 54px;
     margin: 2vw 0;
 }
+
 h2 {
     font-family: 'Comfortaa', cursive;
     font-style: normal;
@@ -39,6 +41,7 @@ body {
     font-size: 16px;
     line-height: 150%;
 }
+
 .parigicolor {
     color: #DF375B;
     font-weight: bold;
@@ -53,19 +56,23 @@ body {
     color: #298D9F;
     font-weight: bold;
 }
+
 .lightcolor {
     color: #F3F9FA;
     font-weight: bold;
 }
+
 .darkcolor {
     color: #333C3F;
 }
+
 .text24 {
     font-size: 24px;
     font-weight: normal;
     line-height: 28px;
 }
-.btn-light{
+
+.btn-light {
     background-color: #F5C042;
     font-weight: bold;
 }
@@ -143,16 +150,18 @@ body {
     background-size: cover;
     background-position: bottom;
     margin-top: 48px;
-    height:617px;
+    height: 617px;
 }
+
 /* Eventi____________________________________________*/
 .sfondoeventi {
     background: url("images/Eventi/SFONDO_EVENTI.svg") no-repeat;
     background-size: cover;
     background-position: bottom;
     margin-top: 48px;
-    height:617px;
+    height: 617px;
 }
+
 /* Quartieri____________________________________________*/
 
 /* impressionismo*/
@@ -164,23 +173,27 @@ body {
     z-index: -10;
 }
 
-.gradient-impressionismo{
-    background: rgb(255,255,255);
-    background: -moz-linear-gradient(180deg, rgba(255,255,255,0) 77%, rgba(230,103,71,1) 94%);
-    background: -webkit-linear-gradient(180deg, rgba(255,255,255,0) 77%, rgba(230,103,71,1) 94%);
-    background: linear-gradient(180deg, rgba(255,255,255,0) 77%, rgba(230,103,71,1) 94%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#e66747",GradientType=1);
+.gradient-impressionismo {
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(180deg, rgba(255, 255, 255, 0) 77%, rgba(230, 103, 71, 1) 94%);
+    background: -webkit-linear-gradient(180deg, rgba(255, 255, 255, 0) 77%, rgba(230, 103, 71, 1) 94%);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 77%, rgba(230, 103, 71, 1) 94%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#e66747", GradientType=1);
     height: inherit;
 }
+
 .impressionismowawe {
-   /* background-image: url("images/Quartieri/sfondo_impressionismo.png");*/
+    /* background-image: url("images/Quartieri/sfondo_impressionismo.png");*/
     height: 85vh;
-    background-size:cover;
+    background-size: cover;
 }
+
 .section-impressionismo, .section-street-art, .section-surrealismo {
-position: relative; /* in questo modo le onde in position:absolute si posizionano sopra le section senza impostare z-index*/
+    position: relative; /* in questo modo le onde in position:absolute si posizionano sopra le section senza impostare z-index*/
 }
-.section-impressionismo .container-fluid /* non ho capito la seconda classe*/{
+
+.section-impressionismo .container-fluid /* non ho capito la seconda classe*/
+{
     background: linear-gradient(
             180deg, rgb(230 103 71) 0%, rgb(241, 154, 94) 100%);
 }
@@ -207,7 +220,6 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
     }
 }
 
-
 .wave-impressionismo, .wave-surrealismo, .wave-street-art {
     position: absolute;
     top: 0;
@@ -217,6 +229,7 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
 .onda, .img-fluid {
     width: 100%;
 }
+
 .text-orange {
     color: #E66848;
 }
@@ -224,18 +237,21 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
 .wrap-surrealismo {
     background-color: #E66848;
 }
+
 /* surrealismo*/
 
-.section-surrealismo  {
+.section-surrealismo {
     position: relative; /* serve per posizionarvi sopra l'onda arancione*/
 }
-.surrealismo{
+
+.surrealismo {
     background-image: url("images/Quartieri/header_surrealismo.png");
-    background-size:cover;
+    background-size: cover;
     height: 80vh;
     position: relative;
     z-index: 0;
 }
+
 .surrealism-gradient {
     background: rgb(54, 99, 160);
     background: -moz-linear-gradient(0deg, rgba(54, 99, 160, 1) 0%, rgba(255, 255, 255, 0) 34%);
@@ -252,6 +268,7 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
 .blue-text {
     color: #3663A0;
 }
+
 .child_surrealismo {
     position: absolute;
     top: 60vh;
@@ -278,7 +295,11 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
 /*__________- street art__________________*/
 
 .section-street-art {
-    background-color: #677D2A;
+    background: rgb(102, 123, 40);
+    background: -moz-linear-gradient(180deg, rgba(102, 123, 40, 1) 72%, rgba(135, 147, 57, 1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(102, 123, 40, 1) 72%, rgba(135, 147, 57, 1) 100%);
+    background: linear-gradient(180deg, rgba(102, 123, 40, 1) 72%, rgba(135, 147, 57, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#667b28", endColorstr="#879339", GradientType=1);
     z-index: 0;
 }
 
@@ -323,7 +344,7 @@ p.d-block {
 
 .bacio {
     position: absolute;
-    top: 5vh;
+    top: 3vh;
     right: 0;
     height: 80vh;
 }
