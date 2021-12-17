@@ -217,7 +217,6 @@ position: relative; /* in questo modo le onde in position:absolute si posizionan
 .onda, .img-fluid {
     width: 100%;
 }
-
 .text-orange {
     color: #E66848;
 }
