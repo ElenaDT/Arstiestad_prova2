@@ -378,6 +378,12 @@ p.d-block {
     border-color: #298D9F;
 }
 
+.form-impressionismo label {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+
 footer {
     background-color: #DF375B;
 }
