@@ -302,6 +302,11 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#667b28", endColorstr="#879339", GradientType=1);
 }
 
+.onda-form {
+    position: relative;
+    margin-top: -37px;
+}
+
 .street-art {
     background-image: url("images/Quartieri/streetart.png");
     background-size: cover;
