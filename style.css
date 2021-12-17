@@ -349,8 +349,8 @@ p.d-block {
 .bacio {
     position: absolute;
     top: 2vh;
-    right: 0;
-    height: 100vh;
+    right: 3vw;
+    height: 150vh;
 }
 
 #back-to-top {
