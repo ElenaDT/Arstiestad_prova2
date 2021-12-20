@@ -404,6 +404,6 @@ footer {
     width: fit-content;
 }
 
-.footer-icon-width {
-    max-width: fit-content;
+.icon {
+    max-width: 35px;
 }
