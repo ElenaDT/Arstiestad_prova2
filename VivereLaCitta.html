@@ -135,6 +135,11 @@
     </div>
 
 </main>
+<div class="row justify-content-end m-0">
+    <a class="p-0" id="back-to-top" onclick="topFunction()">
+        <img alt="back to top" class="h-100" src="images/Quartieri/FrecciaSu.svg">
+    </a>
+</div>
 <footer class="row mt-4 p-5 justify-content-center text-light mx-0">
     <div class="mx-auto pb-4 fit-content">
         <img class="icon" src="Icons/Instagram.svg">
@@ -155,6 +160,11 @@
 <script crossorigin="anonymous"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
+<script>
+    function topFunction() {
+        document.body.scrollTop = 0; // Per Safari
+        document.documentElement.scrollTop = 0; // altri Browser
+    }
+</script>
 </body>
 </html>

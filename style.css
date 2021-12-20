@@ -144,6 +144,10 @@ body {
     background-size: cover;
 }
 
+.sfondo:after {
+    content: url("");
+}
+
 /* Come raggiungerci____________________________________________*/
 .sfondoragg {
     background: url("images/ComeRaggiungerci/header_COMERAGGIUNGERCI.svg") no-repeat;
@@ -337,7 +341,7 @@ p.d-block {
         width: 40vw;
     }
 
-    /* occorre aggiustarle bene ma funziona*/
+    /* occorre aggiustarle bene per la responsiveness ma funziona*/
 }
 
 /*form*______________*/

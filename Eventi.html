@@ -81,25 +81,45 @@
 </header>
 <main class="sfondo">
     <div class="container-fluid p-0">
-        <div class="row justify-content-center sfondoeventi">
+        <div class="row justify-content-center sfondoeventi  mx-0">
             <div class="col-10 col-md-10 pt-4 pt-md-5">
-                <h1 class="lightcolor display-1"> Gli eventi della Città  </h1>
-                <p class="lightcolor pt-2 pt-md-2 text24">Ogni mese la nostra città diventa teatro di importanti eventi, scopri quali! </p>
+                <h1 class="lightcolor display-1"> Gli eventi della Città </h1>
+                <p class="lightcolor pt-2 pt-md-2 text24">Ogni mese la nostra città diventa teatro di importanti eventi,
+                    scopri quali! </p>
             </div>
         </div>
     </div>
 
 
-
-<script crossorigin="anonymous"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-<script crossorigin="anonymous"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-<script crossorigin="anonymous"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
+    <div class="row justify-content-end m-0">
+        <a class="p-0" id="back-to-top" onclick="topFunction()">
+            <img alt="back to top" class="h-100" src="images/Quartieri/FrecciaSu.svg">
+        </a>
+    </div>
+    <footer class="row mt-4 p-5 justify-content-center text-light mx-0">
+        <div class="mx-auto pb-4 fit-content">
+            <img class="icon" src="Icons/Instagram.svg">
+            <img class="icon" src="Icons/Whatsup.svg">
+            <img class="icon" src="Icons/Facebook.svg">
+        </div>
+        <div class="row justify-content-center">
+            <p class="fit-content"> @Dada</p>
+        </div>
+    </footer>
+    <script crossorigin="anonymous"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script crossorigin="anonymous"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+        function topFunction() {
+            document.body.scrollTop = 0; // Per Safari
+            document.documentElement.scrollTop = 0; // altri Browser
+        }
+    </script>
 </body>
 </html>
