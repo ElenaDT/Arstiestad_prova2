@@ -447,10 +447,19 @@ footer {
 }
 
 .event {
-    max-width: 70%;
+    max-width: 66%;
+}
+.event-title {
+    margin-right: 9vw;
+    margin-bottom: 3vh;
 }
 
-.event-title {
-    margin-right: 8vw;
-    margin-bottom: 3vh;
+@media only screen and (max-width: 800px) {
+    .img-events {
+        display: none;
+    }
+
+    .event {
+        /* to be continued...*/
+    }
 }
