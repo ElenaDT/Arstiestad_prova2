@@ -403,3 +403,7 @@ footer {
 .fit-content {
     width: fit-content;
 }
+
+.footer-icon-width {
+    max-width: fit-content;
+}
