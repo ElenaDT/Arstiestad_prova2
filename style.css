@@ -130,6 +130,15 @@ body {
     background-position-y: top;
 }
  */
+
+/* Home____________________________________________*/
+.sfondohome {
+    background: url("images/index/header_home.png") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 48px;
+    height: 617px;
+}
 /* Vivere la città____________________________________________*/
 .sfondovivere {
     background: url("images/ViverelaCittà/Header_VivereLaCittà.svg") no-repeat;
@@ -155,6 +164,10 @@ body {
     background-position: bottom;
     margin-top: 48px;
     height: 617px;
+}
+
+.googlemap {
+    width: 75%;
 }
 
 /* Eventi____________________________________________*/
