@@ -38,7 +38,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 150%;
 }
 
@@ -111,6 +111,15 @@ body {
     text-decoration-thickness: 0.15em;
 
 }
+.dropdown-item {
+    color: #333C3F;
+}
+
+.dropdown-item:hover {
+    color: #DF375B;
+    text-decoration: none;
+    background-color: #FDF3F5;
+}
 
 /* home_______________________________________________________*/
 /* main {
@@ -139,20 +148,38 @@ body {
     margin-top: 48px;
     height: 617px;
 }
+/* La città____________________________________________*/
 
+.sfondoscopri {
+    background: url("images/LaCitta/header_LaCittà.svg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 48px;
+    height: 500px;
+}
+.subtitleBold {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
 /* Vivere la città____________________________________________*/
 .sfondovivere {
     background: url("images/ViverelaCittà/Header_VivereLaCittà.svg") no-repeat;
     background-size: cover;
     background-position: bottom;
     margin-top: 48px;
-    height: 617px;
+    height: 500px;
+}
+.subtitleBold {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
 }
 
-.sfondo {
-    background: url("images/ViverelaCittà/sfondo.png") no-repeat;
-    background-size: cover;
-}
 
 /* Come raggiungerci____________________________________________*/
 .sfondoragg {
