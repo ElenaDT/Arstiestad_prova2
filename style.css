@@ -477,9 +477,16 @@ footer {
 
 }
 
-.timeline-element {
+.timeline-element-r {
     position: relative;
-    left: -15px;
+    left: -1vw;
+    top: 40px;
+    z-index: 1000;
+}
+
+.timeline-element-l {
+    position: relative;
+    left: 38.8vw;
     top: 40px;
     z-index: 1000;
 }
@@ -493,10 +500,16 @@ footer {
     background-color: #298D9F;
 }
 
-.event-title {
+.event-title-r {
     margin-right: 9vw;
     margin-bottom: 3vh;
     text-align: end;
+}
+
+.event-title-l {
+    margin-left: 9vw;
+    margin-bottom: 3vh;
+    text-align: start;
 }
 
 @media only screen and (max-width: 768px) {
@@ -510,7 +523,7 @@ footer {
     }
 
     .timeline-element {
-        left: 2vw;
+        left: 3.5vw;
         top: -3vh;
     }
 
@@ -518,7 +531,7 @@ footer {
         margin-left: 5.5vw;
     }
 
-    .event-title {
+    .event-title-r {
         text-align: start;
         width: fit-content;
         margin-left: 17vw;
@@ -527,4 +540,18 @@ footer {
     br {
         display: none; /* utilizzare le classi bootstrap*/
     }
+}
+
+.when::before {
+    content: url("images/Eventi/calendar.svg");
+    height: 30px;
+    margin-right: 10px;
+
+}
+
+.where::before {
+    content: url("images/Eventi/position.svg");
+    height: 30px;
+    margin-right: 10px;
+
 }
