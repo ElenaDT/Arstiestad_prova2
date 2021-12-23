@@ -111,6 +111,7 @@ body {
     text-decoration-thickness: 0.15em;
 
 }
+
 .dropdown-item {
     color: #333C3F;
 }
@@ -148,6 +149,7 @@ body {
     margin-top: 48px;
     height: 617px;
 }
+
 /* La città____________________________________________*/
 
 .sfondoscopri {
@@ -157,6 +159,7 @@ body {
     margin-top: 48px;
     height: 500px;
 }
+
 .subtitleBold {
     font-family: Raleway;
     font-style: normal;
@@ -164,6 +167,7 @@ body {
     font-size: 24px;
     line-height: 28px;
 }
+
 /* Vivere la città____________________________________________*/
 .sfondovivere {
     background: url("images/ViverelaCittà/Header_VivereLaCittà.svg") no-repeat;
@@ -172,6 +176,7 @@ body {
     margin-top: 48px;
     height: 500px;
 }
+
 .subtitleBold {
     font-family: Raleway;
     font-style: normal;
@@ -458,35 +463,68 @@ footer {
     max-width: 35px;
 }
 
-.event::before {
+.right-column {
+    position: relative
+}
+
+.right-column::before {
     content: url("images/Eventi/line.svg");
     display: block;
     position: absolute;
-    top: 485px;
+    top: -500px;
+    z-index: -100;
+    height: 100%;
 
 }
 
 .timeline-element {
     position: relative;
     left: -15px;
-    top: 30px;
+    top: 40px;
     z-index: 1000;
 }
 
 .event {
     max-width: 66%;
 }
+
+.month-span {
+    font-family: 'Comfortaa', cursive;
+    background-color: #298D9F;
+}
+
 .event-title {
     margin-right: 9vw;
     margin-bottom: 3vh;
+    text-align: end;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
     .img-events {
         display: none;
     }
 
-    .event {
-        /* to be continued...*/
+    /* utilizzare le classi bootstrap*/
+    .right-column::before {
+        margin-left: 6.5vw;
+    }
+
+    .timeline-element {
+        left: 2vw;
+        top: -3vh;
+    }
+
+    .timeline-element span {
+        margin-left: 5.5vw;
+    }
+
+    .event-title {
+        text-align: start;
+        width: fit-content;
+        margin-left: 17vw;
+    }
+
+    br {
+        display: none; /* utilizzare le classi bootstrap*/
     }
 }
