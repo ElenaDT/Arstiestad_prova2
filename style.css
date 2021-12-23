@@ -486,7 +486,7 @@ footer {
 
 .timeline-element-l {
     position: relative;
-    left: 38.8vw;
+    left: 38.5vw;
     top: 40px;
     z-index: 1000;
 }
@@ -495,9 +495,21 @@ footer {
     max-width: 66%;
 }
 
-.month-span {
+.months-span {
     font-family: 'Comfortaa', cursive;
+}
+
+.january, .april {
     background-color: #298D9F;
+}
+
+.february {
+    background-color: #DF375B;
+}
+
+
+.march {
+    background-color: #F5C042;
 }
 
 .event-title-r {
@@ -542,14 +554,14 @@ footer {
     }
 }
 
-.when::before {
+.when-g::before {
     content: url("images/Eventi/calendar.svg");
     height: 30px;
     margin-right: 10px;
 
 }
 
-.where::before {
+.where-g::before {
     content: url("images/Eventi/position.svg");
     height: 30px;
     margin-right: 10px;
