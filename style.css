@@ -468,7 +468,7 @@ footer {
     z-index: 1000;
 }
 
-/*#######mobile###########*/
+/*#######mobile_Quartieri###########*/
 @media only screen and (max-width: 320px) {
     h1 {
         font-size: 2rem;
@@ -479,14 +479,28 @@ footer {
     }
 
     .bacio {
-        display: none;
+        height: 30vh;
+        top: -20px;
+        right: 4px;
     }
 
     .onda-form {
         top: 30px
     }
 
+    p.d-block-tight {
+        width: 100vw;
+    }
+
+    .ondina-surr {
+        top: -1px;
+    }
+
+    .onda {
+        top: -3px;
+    }
 }
+
 
 /* _____________________________________pagina eventi_______________*/
 .fit-content {
