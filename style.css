@@ -561,9 +561,7 @@ footer {
 
 .timeline-element-l {
     position: relative;
-    left: 38.5vw;
-    top: 40px;
-    z-index: 1000;
+    left: 38vw;
 }
 
 .event {
@@ -629,14 +627,14 @@ footer {
     }
 }
 
-.when-g::before {
+.when::before {
     content: url("images/Eventi/calendar.svg");
     height: 30px;
     margin-right: 10px;
 
 }
 
-.where-g::before {
+.where::before {
     content: url("images/Eventi/position.svg");
     height: 30px;
     margin-right: 10px;
