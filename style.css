@@ -9,7 +9,7 @@
 }
 
 h1 {
-    font-family: 'Comfortaa', cursive; /* OCCORRE METTERE LE GRANDEZZE RELATIVE IN TUTTI GLI H E P!!*/
+    font-family: 'Comfortaa', cursive;
     font-style: normal;
     font-weight: bold;
     font-size: 3rem;
@@ -21,7 +21,7 @@ h2 {
     font-family: 'Comfortaa', cursive;
     font-style: normal;
     font-weight: bold;
-    font-size: 38px;
+    font-size: 2rem;
     line-height: 54px;
     letter-spacing: -0.02em;
 }
@@ -30,7 +30,7 @@ h3 {
     font-family: 'Comfortaa', cursive;
     font-style: normal;
     font-weight: bolder;
-    font-size: 24px;
+    font-size: 1.3rem;
 
 }
 
@@ -38,7 +38,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 18px;
     line-height: 150%;
 }
 
@@ -50,6 +50,10 @@ body {
 .zafferanocolor {
     color: #F5C042;
     font-weight: bold;
+}
+
+.zafferano {
+    background-color: #F5C042;
 }
 
 .smeraldocolor {
@@ -468,6 +472,68 @@ footer {
     z-index: 1000;
 }
 
+/*#######mobile_Quartieri###########*/
+@media only screen and (max-width: 320px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .bacio {
+        height: 28vh;
+        top: -27px;
+        right: 4px;
+    }
+
+    .onda-form {
+        top: 30px
+    }
+
+    p.d-block-tight {
+        width: 100vw;
+    }
+
+    .ondina-surr {
+        top: 12px;
+    }
+
+    .onda {
+        position: absolute;
+        top: -3px;
+    }
+}
+
+/* ipad*/
+@media only screen and (max-width: 1200px) {
+
+    .onda {
+        position: absolute;
+        top: -4px;
+    }
+
+    .bacio {
+        height: 32vh;
+        top: -22px;
+        right: 4px;
+    }
+
+    .child {
+        top: 812px;
+        height: 33vh;
+    }
+
+    .child_surrealismo {
+        height: 40vh;
+        top: 690px;
+
+    }
+}
+
+
+/* _____________________________________pagina eventi_______________*/
 .fit-content {
     width: fit-content;
 }
@@ -480,13 +546,13 @@ footer {
     position: relative
 }
 
-.right-column::before {
+#january::before {
     content: url("images/Eventi/line.svg");
     display: block;
     position: absolute;
-    top: -500px;
+    top: -250px;
     z-index: -100;
-    height: 100%;
+    height: 110%;
 
 }
 
@@ -499,9 +565,7 @@ footer {
 
 .timeline-element-l {
     position: relative;
-    left: 38.5vw;
-    top: 40px;
-    z-index: 1000;
+    transform: translateX(36.1vw);
 }
 
 .event {
@@ -509,7 +573,10 @@ footer {
 }
 
 .months-span {
+    display: inline-block;
     font-family: 'Comfortaa', cursive;
+    width: 170px;
+    text-align: center;
 }
 
 .january, .april {
@@ -567,14 +634,14 @@ footer {
     }
 }
 
-.when-g::before {
+.when::before {
     content: url("images/Eventi/calendar.svg");
     height: 30px;
     margin-right: 10px;
 
 }
 
-.where-g::before {
+.where::before {
     content: url("images/Eventi/position.svg");
     height: 30px;
     margin-right: 10px;
