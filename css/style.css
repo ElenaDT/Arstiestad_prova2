@@ -147,7 +147,7 @@ body {
 
 /* Home____________________________________________*/
 .sfondohome {
-    background: url("images/index/header_home.png") no-repeat;
+    background: url("../images/index/header_home.png") no-repeat;
     background-size: cover;
     background-position: bottom;
     margin-top: 48px;
@@ -157,7 +157,7 @@ body {
 /* La città____________________________________________*/
 
 .sfondoscopri {
-    background: url("images/LaCitta/header_LaCittà.svg") no-repeat;
+    background: url("../images/LaCitta/header_LaCittà.svg") no-repeat;
     background-size: cover;
     background-position: bottom;
     margin-top: 48px;
@@ -187,7 +187,7 @@ body {
 
 /* Vivere la città____________________________________________*/
 .sfondovivere {
-    background: url("images/ViverelaCittà/Header_VivereLaCittà.svg") no-repeat;
+    background: url("../images/ViverelaCittà/Header_VivereLaCittà.svg") no-repeat;
     background-size: cover;
     background-position: bottom;
     margin-top: 48px;
@@ -205,7 +205,7 @@ body {
 
 /* Come raggiungerci____________________________________________*/
 .sfondoragg {
-    background: url("images/ComeRaggiungerci/header_COMERAGGIUNGERCI.svg") no-repeat;
+    background: url("../images/ComeRaggiungerci/header_COMERAGGIUNGERCI.svg") no-repeat;
     background-size: cover;
     background-position: bottom;
     margin-top: 48px;
@@ -218,7 +218,7 @@ body {
 
 /* Eventi____________________________________________*/
 .sfondoeventi {
-    background: url("images/Eventi/SFONDO_EVENTI.svg") no-repeat;
+    background: url("../images/Eventi/SFONDO_EVENTI.svg") no-repeat;
     background-size: cover;
     background-position: bottom;
     margin-top: 48px;
@@ -235,7 +235,7 @@ body {
 
 /* impressionismo*/
 .impressionismo {
-    background-image: url("images/Quartieri/header_impressionismo.png");
+    background-image: url("../images/Quartieri/header_impressionismo.png");
     background-size: cover;
     height: 80vh;
     position: relative;
@@ -314,7 +314,7 @@ body {
 }
 
 .surrealismo {
-    background-image: url("images/Quartieri/header_surrealismo.png");
+    background-image: url("../images/Quartieri/header_surrealismo.png");
     background-size: cover;
     height: 80vh;
     position: relative;
@@ -377,7 +377,7 @@ body {
 }
 
 .street-art {
-    background-image: url("images/Quartieri/streetart.png");
+    background-image: url("../images/Quartieri/streetart.png");
     background-size: cover;
     height: 100vh;
     position: relative;
@@ -411,7 +411,7 @@ p.d-block {
 
 /*form*______________*/
 .form-impressionismo {
-    background-image: url("images/Quartieri/sfondo.png");
+    background-image: url("../images/Quartieri/sfondo.png");
     position: relative;
 }
 
@@ -547,7 +547,7 @@ footer {
 }
 
 #january::before {
-    content: url("images/Eventi/line.svg");
+    content: url("../images/Eventi/line.svg");
     display: block;
     position: absolute;
     top: -250px;
@@ -635,14 +635,14 @@ footer {
 }
 
 .when::before {
-    content: url("images/Eventi/calendar.svg");
+    content: url("../images/Eventi/calendar.svg");
     height: 30px;
     margin-right: 10px;
 
 }
 
 .where::before {
-    content: url("images/Eventi/position.svg");
+    content: url("../images/Eventi/position.svg");
     height: 30px;
     margin-right: 10px;
 
