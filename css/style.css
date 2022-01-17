@@ -25,7 +25,9 @@ h2 {
     line-height: 54px;
     letter-spacing: -0.02em;
 }
-
+.fsize20 {
+    font-size: 20px;
+}
 h3 {
     font-family: 'Comfortaa', cursive;
     font-style: normal;
@@ -85,6 +87,19 @@ body {
     border-radius: 40px;
     box-shadow: 0 5px 15px rgba(250, 182, 13, 0.5);
     background-color: #F5C042;
+    font-family: Comfortaa, cursive;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F3F9FA;
+    position: relative;
+    z-index: 100; /* in maniera tale che i div sottostanti non coprano la sua ombra*/
+}
+
+.btnBlu {
+    border-radius: 40px;
+    box-shadow: 0px 6px 16px rgba(41, 141, 159, 0.5);
+    background-color: #298D9F;
     font-family: Comfortaa, cursive;
     font-style: normal;
     font-size: 18px;
@@ -174,15 +189,26 @@ body {
 
 .lineleft {
     margin-top: -150px;
-    z-index: -1;
+    z-index: 1;
 }
 
+.zindex1 {
+    z-index: 2;
+}
 .cardcity {
     background-color: #FCFCFC;
     border-radius: 40px;
-    z-index: -2;
     margin-top: -90px;
     box-shadow: 0px 10px 50px 0px #91A8D533;
+}
+
+.noborder {
+    border-style: none;
+}
+.whereyellow::before {
+    content: url("../Icons/positionyellow.svg");
+    height: 30px;
+    margin-right: 10px;
 }
 
 /* Vivere la città____________________________________________*/
@@ -215,7 +241,20 @@ body {
 .googlemap {
     width: 75%;
 }
-
+.bordermaps {
+    border-radius: 40px;
+    box-shadow: 0px 4px 30px 0px #00000033;
+}
+.email::before {
+    content: url("../Icons/email1.svg");
+    height: 30px;
+    margin-right: 10px;
+}
+.phone::before {
+    content: url("../Icons/phone1.svg");
+    height: 30px;
+    margin-right: 10px;
+}
 /* Eventi____________________________________________*/
 .sfondoeventi {
     background: url("../images/Eventi/SFONDO_EVENTI.svg") no-repeat;
@@ -645,5 +684,4 @@ footer {
     content: url("../images/Eventi/position.svg");
     height: 30px;
     margin-right: 10px;
-
 }
