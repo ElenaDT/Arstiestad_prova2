@@ -13,7 +13,7 @@
           rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
-<body>
+<body class="citybackground">
 <header class="container-fluid">
     <div class="row">
         <nav class=" navbar navbar-expand-md navbar-light bg-light d-flex justify-content-between fixed-top">
@@ -285,9 +285,56 @@
         <a class="btn btnBlu btn-lg mt-md-3 mb-3 mb-sm-5" href="Eventi.html"
            role="button">Scopri gli eventi</a>
     </div>
+    <div class="row justify-content-center mx-0">
+        <div class="col-10 col-md-9  pt-sm-0 mt-5 mt-md-5">
+            <h2 class="parigicolor display-4 "> Galleria </h2>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade mt-5" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/LaCitta/slidercittà1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/LaCitta/slidercittà2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/LaCitta/slidercittà3.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                    <span class="prevphoto" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                    <span class="nextphoto" aria-hidden="true"></span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center mx-0">
+        <div class="col-10 col-md-9  pt-sm-0 mt-5 mt-md-5">
+            <h3 class="parigicolor display-4 "> La storia di <span class="parigicolor">Art</span><span
+                    class="zafferanocolor">ies</span><span class="smeraldocolor">ted</span>
+            </h3>
+        </div>
+    </div>
 
 </main>
 
+
+<div class="row justify-content-end m-0">
+    <a class="p-0" id="back-to-top" onclick="topFunction()">
+        <img alt="back to top" class="h-100" src="images/Quartieri/FrecciaSu.svg">
+    </a>
+</div>
+<footer class="row mt-4 p-5 justify-content-center text-light mx-0">
+    <div class="mx-auto pb-4 fit-content">
+        <img class="icon" src="Icons/Instagram.svg">
+        <img class="icon" src="Icons/Whatsup.svg">
+        <img class="icon" src="Icons/Facebook.svg">
+    </div>
+    <div class="row justify-content-center">
+        <p class="fit-content"> @Dada</p>
+    </div>
+</footer>
 <script crossorigin="anonymous"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
@@ -297,6 +344,12 @@
 <script crossorigin="anonymous"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script>
+    function topFunction() {
+        document.body.scrollTop = 0; // Per Safari
+        document.documentElement.scrollTop = 0; // altri Browser
+    }
+</script>
 
 </body>
 </html>

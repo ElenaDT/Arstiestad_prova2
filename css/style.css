@@ -170,7 +170,10 @@ body {
 }
 
 /* La città____________________________________________*/
-
+.citybackground {
+    background: url("../images/LaCitta/statuacittà.svg") no-repeat;
+    background-position: bottom left;
+}
 .sfondoscopri {
     background: url("../images/LaCitta/header_LaCittà.svg") no-repeat;
     background-size: cover;
@@ -254,6 +257,12 @@ body {
     content: url("../Icons/phone1.svg");
     height: 30px;
     margin-right: 10px;
+}
+.nextphoto {
+    content: url("../Icons/nextphoto.svg");
+}
+.prevphoto {
+    content: url("../Icons/prevphoto.svg");
 }
 /* Eventi____________________________________________*/
 .sfondoeventi {
