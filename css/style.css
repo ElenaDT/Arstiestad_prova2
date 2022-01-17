@@ -647,3 +647,10 @@ footer {
     margin-right: 10px;
 
 }
+
+/*_____________________HOME______________*/
+
+.my-splide-prev {
+    color: #DF375B;
+    padding-left: -30px;
+}
