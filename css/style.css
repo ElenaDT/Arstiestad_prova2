@@ -170,12 +170,23 @@ body {
 }
 
 /* La città____________________________________________*/
-.citybackground {
-    background: url("../images/LaCitta/statuacittà.svg") no-repeat;
-    background-position: bottom left;
+
+@media only screen and (min-width: 600px) {
+    .citybackground {
+        background-image: url("../images/LaCitta/statuacittà.svg");
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-size: 50%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .citybackground {
+        background-size: 40%;
+    }
 }
 .sfondoscopri {
-    background: url("../images/LaCitta/header_LaCittà.svg") no-repeat;
+    background-image: url("../images/LaCitta/header_LaCittà.svg");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     margin-top: 48px;
@@ -191,9 +202,15 @@ body {
 }
 
 .lineleft {
-    margin-top: -150px;
+    margin-top: -100px;
     z-index: 1;
 }
+@media only screen and (min-width:1200) {
+    .lineleft {
+        margin-top: -150px;
+    }
+}
+
 
 .zindex1 {
     z-index: 2;
@@ -201,8 +218,14 @@ body {
 .cardcity {
     background-color: #FCFCFC;
     border-radius: 40px;
-    margin-top: -90px;
+    margin-top: -80px;
     box-shadow: 0px 10px 50px 0px #91A8D533;
+}
+
+.cardShadow {
+    border-radius: 40px;
+    box-shadow: 0px 10px 50px 0px #91A8D533;
+    border-style: hidden;
 }
 
 .noborder {
