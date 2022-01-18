@@ -25,9 +25,11 @@ h2 {
     line-height: 54px;
     letter-spacing: -0.02em;
 }
+
 .fsize20 {
     font-size: 20px;
 }
+
 h3 {
     font-family: 'Comfortaa', cursive;
     font-style: normal;
@@ -174,6 +176,7 @@ body {
     background: url("../images/LaCitta/statuacittà.svg") no-repeat;
     background-position: bottom left;
 }
+
 .sfondoscopri {
     background: url("../images/LaCitta/header_LaCittà.svg") no-repeat;
     background-size: cover;
@@ -198,6 +201,7 @@ body {
 .zindex1 {
     z-index: 2;
 }
+
 .cardcity {
     background-color: #FCFCFC;
     border-radius: 40px;
@@ -208,6 +212,7 @@ body {
 .noborder {
     border-style: none;
 }
+
 .whereyellow::before {
     content: url("../Icons/positionyellow.svg");
     height: 30px;
@@ -244,26 +249,32 @@ body {
 .googlemap {
     width: 75%;
 }
+
 .bordermaps {
     border-radius: 40px;
     box-shadow: 0px 4px 30px 0px #00000033;
 }
+
 .email::before {
     content: url("../Icons/email1.svg");
     height: 30px;
     margin-right: 10px;
 }
+
 .phone::before {
     content: url("../Icons/phone1.svg");
     height: 30px;
     margin-right: 10px;
 }
+
 .nextphoto {
     content: url("../Icons/nextphoto.svg");
 }
+
 .prevphoto {
     content: url("../Icons/prevphoto.svg");
 }
+
 /* Eventi____________________________________________*/
 .sfondoeventi {
     background: url("../images/Eventi/SFONDO_EVENTI.svg") no-repeat;
@@ -640,10 +651,46 @@ footer {
     background-color: #F5C042;
 }
 
-.event-title-r {
+/*.event-title-r {
     margin-right: 9vw;
     margin-bottom: 3vh;
     text-align: end;
+}*/
+
+.margin-left-h3 {
+    margin-left: 15vw;
+}
+
+.margin-l-h3-2 {
+    margin-left: 8.5vw;
+}
+
+.margin-left-timeline {
+    margin-left: -1vw;
+}
+
+.margin-right-timeline {
+    position: relative;
+    left: 18vw;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .margin-left-timeline {
+        margin-left: 2vw;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .months {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .months-mobile {
+        display: none;
+    }
 }
 
 .event-title-l {
@@ -658,19 +705,18 @@ footer {
     }
 
     /* utilizzare le classi bootstrap*/
-    .right-column::before {
-        margin-left: 6.5vw;
-    }
+    /* .right-column::before {
+         margin-left: 6.5vw;
+     }/*
 
-    .timeline-element {
-        left: 3.5vw;
-        top: -3vh;
-    }
+     /* .timeline-element {
+          left: 3.5vw;
+          top: -3vh;
+      }
 
-    .timeline-element span {
-        margin-left: 5.5vw;
-    }
-
+      .timeline-element span {
+          margin-left: 5.5vw;
+      }*/
     .event-title-r {
         text-align: start;
         width: fit-content;
