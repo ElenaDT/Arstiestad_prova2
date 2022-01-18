@@ -114,7 +114,19 @@ body {
     position: relative;
     z-index: 100; /* in maniera tale che i div sottostanti non coprano la sua ombra*/
 }
-
+.btnFucsia {
+    border-radius: 40px;
+    background: #DF375B;
+    padding: 5px 30px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    font-family: Comfortaa, cursive;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F3F9FA;
+    position: relative;
+    z-index: 100; /* in maniera tale che i div sottostanti non coprano la sua ombra*/
+}
 .navbar-light .navbar-nav .nav-link {
     font-weight: bolder;
     color: #333C3F; /* si dovrebbe sovrascrivere la classe black di bootstrap con questo codice e utilizzarla... */
@@ -162,7 +174,16 @@ body {
     height: 30px;
     margin-right: 10px;
 }
-
+.calendarfucsia::before {
+    content: url("../Icons/calnderiofucsia.svg");
+    height: 30px;
+    margin-right: 10px;
+}
+.calendarblu::before {
+    content: url("../Icons/calendarblu.svg");
+    height: 30px;
+    margin-right: 10px;
+}
 /* home_______________________________________________________*/
 /* main {
     background-image: url("images/wawe.svg");
