@@ -310,15 +310,7 @@ body {
     margin-top: 48px;
     height: 670px;
 }
-/* Come raggiungerci____________________________________________*/
-.sfondoragg {
-    background: url("../images/ComeRaggiungerci/header_COMERAGGIUNGERCI.svg") no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    margin-top: 48px;
-    height: 617px;
-}
-.accordionstyle {
+.accordionstyleBlu {
     color: #298D9F;
     font-weight: bold;
 }
@@ -339,6 +331,27 @@ body {
     border-style: none;
     background-color: #FFFFFF;
 }
+/* Didattica____________________________________________*/
+.backgDidattica {
+    background: url("../images/didattica/SFONDO_DIDATTICA.png") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 48px;
+    height: 600px;
+}
+.accordionstyleFucsia {
+    color: #DF375B;
+    font-weight: bold;
+}
+/* Come raggiungerci____________________________________________*/
+.sfondoragg {
+    background: url("../images/ComeRaggiungerci/header_COMERAGGIUNGERCI.svg") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    margin-top: 48px;
+    height: 617px;
+}
+
 
 .googlemap {
     width: 75%;
