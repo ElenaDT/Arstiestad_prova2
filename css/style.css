@@ -41,6 +41,7 @@ body {
     font-size: 18px;
     line-height: 150%;
 }
+
 .small {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -55,14 +56,17 @@ body {
     font-weight: bolder;
     font-size: 1.5rem;
 }
+
 .parigicolor {
     color: #DF375B;
     font-weight: bold;
 }
+
 .parigicolorlight {
     color: #DF375B;
     font-weight: normal;
 }
+
 .zafferanocolor {
     color: #F5C042;
     font-weight: bold;
@@ -91,6 +95,7 @@ body {
     font-weight: normal;
     line-height: 28px;
 }
+
 @media only screen and (min-width: 720px) {
     .text24 {
         font-size: 24px;
@@ -127,11 +132,12 @@ body {
     position: relative;
     z-index: 100; /* in maniera tale che i div sottostanti non coprano la sua ombra*/
 }
+
 .btnFucsia {
     border-radius: 40px;
     background: #DF375B;
     padding: 5px 30px;
-    box-shadow:0px 6px 16px rgba(223, 55, 91, 0.5);
+    box-shadow: 0px 6px 16px rgba(223, 55, 91, 0.5);
     font-family: Comfortaa, cursive;
     font-style: normal;
     font-size: 18px;
@@ -140,6 +146,7 @@ body {
     position: relative;
     z-index: 100; /* in maniera tale che i div sottostanti non coprano la sua ombra*/
 }
+
 .navbar-light .navbar-nav .nav-link {
     font-weight: bolder;
     color: #333C3F; /* si dovrebbe sovrascrivere la classe black di bootstrap con questo codice e utilizzarla... */
@@ -171,11 +178,13 @@ body {
     text-decoration: none;
     background-color: #FDF3F5;
 }
+
 .whereyellow::before {
     content: url("../Icons/positionyellow.svg");
     height: 30px;
     margin-right: 10px;
 }
+
 .whereFucsia::before {
     content: url("../Icons/posizionefucsia.svg");
     height: 30px;
@@ -187,16 +196,19 @@ body {
     height: 30px;
     margin-right: 10px;
 }
+
 .calendarfucsia::before {
     content: url("../Icons/calnderiofucsia.svg");
     height: 30px;
     margin-right: 10px;
 }
+
 .calendarblu::before {
     content: url("../Icons/calendarblu.svg");
     height: 30px;
     margin-right: 10px;
 }
+
 /* home_______________________________________________________*/
 /* main {
     background-image: url("images/wawe.svg");
@@ -235,6 +247,7 @@ body {
         background-size: 50%;
     }
 }
+
 @media only screen and (min-width: 1200px) {
     .citybackground {
         background-size: 40%;
@@ -262,31 +275,18 @@ body {
     margin-top: -100px;
     z-index: 1;
 }
-@media only screen and (min-width:1200px) {
+
+@media only screen and (min-width: 1200px) {
     .lineleft {
         margin-top: -150px;
     }
 }
 
-.lineleft2 {
-    margin-top: -80px;
-    z-index: 1;
-}
-
-
-@media only screen and (min-width:1200px) {
-    .lineleft {
-        margin-top: -150px;
-    }
-}
 
 .zindex1 {
     z-index: 2;
 }
 
-.mtneg {
-    margin-top: -50px;
-}
 .cardcity {
     background-color: #FCFCFC;
     border-radius: 40px;
@@ -303,11 +303,13 @@ body {
 .noborder {
     border-style: none;
 }
+
 .whereyellow::before {
     content: url("../Icons/positionyellow.svg");
     height: 30px;
     margin-right: 10px;
 }
+
 .whereFucsia::before {
     content: url("../Icons/posizionefucsia.svg");
     height: 30px;
@@ -339,6 +341,7 @@ body {
     margin-top: 48px;
     height: 670px;
 }
+
 .accordionstyleBlu {
     color: #298D9F;
     font-weight: bold;
@@ -356,10 +359,11 @@ body {
     border-radius: 10px;
 }
 
-.accordionBody{
+.accordionBody {
     border-style: none;
     background-color: #FFFFFF;
 }
+
 /* Didattica____________________________________________*/
 .backgDidattica {
     background: url("../images/didattica/SFONDO_DIDATTICA.png") no-repeat;
@@ -368,10 +372,12 @@ body {
     margin-top: 48px;
     height: 600px;
 }
+
 .accordionstyleFucsia {
     color: #DF375B;
     font-weight: bold;
 }
+
 /* Come raggiungerci____________________________________________*/
 .sfondoragg {
     background: url("../images/ComeRaggiungerci/header_COMERAGGIUNGERCI.svg") no-repeat;
@@ -385,26 +391,32 @@ body {
 .googlemap {
     width: 75%;
 }
+
 .bordermaps {
     border-radius: 40px;
     box-shadow: 0px 4px 30px 0px #00000033;
 }
+
 .email::before {
     content: url("../Icons/email1.svg");
     height: 30px;
     margin-right: 10px;
 }
+
 .phone::before {
     content: url("../Icons/phone1.svg");
     height: 30px;
     margin-right: 10px;
 }
+
 .nextphoto {
     content: url("../Icons/nextphoto.svg");
 }
+
 .prevphoto {
     content: url("../Icons/prevphoto.svg");
 }
+
 /* Eventi____________________________________________*/
 .sfondoeventi {
     background: url("../images/Eventi/SFONDO_EVENTI.svg") no-repeat;
@@ -724,11 +736,15 @@ footer {
 
 /* _____________________________________pagina eventi_______________*/
 .margin-left-h3 {
-    margin-left: 8vw;
+    margin-left: 9vw;
 }
 
 .margin-left-timeline {
     margin-left: -1vw;
+}
+
+.margin-right-timeline {
+    margin-right: -1vw;
 }
 
 .fit-content {
@@ -802,12 +818,9 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-    .img-events {
+   /* .img-events {
         display: none;
-    }
-
-    /* utilizzare le classi bootstrap*/
-    /* utilizzare le classi bootstrap*/
+    } */
     .right-column::before {
         margin-left: 6.5vw;
     }
