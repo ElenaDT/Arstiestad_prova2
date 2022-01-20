@@ -275,7 +275,6 @@ body {
     margin-top: -100px;
     z-index: 1;
 }
-
 @media only screen and (min-width: 1200px) {
     .lineleft {
         margin-top: -150px;
@@ -286,7 +285,10 @@ body {
 .zindex1 {
     z-index: 2;
 }
-
+.lineleft2 {
+    margin-top: -50px;
+    z-index: 1;
+}
 .cardcity {
     background-color: #FCFCFC;
     border-radius: 40px;
@@ -312,6 +314,16 @@ body {
 
 .whereFucsia::before {
     content: url("../Icons/posizionefucsia.svg");
+    height: 30px;
+    margin-right: 10px;
+}
+.phoneYellow::before {
+    content: url("../Icons/phoneyellow.svg");
+    height: 30px;
+    margin-right: 10px;
+}
+.emailYellow::before {
+    content: url("../Icons/emailyellow.svg");
     height: 30px;
     margin-right: 10px;
 }
