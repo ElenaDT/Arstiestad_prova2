@@ -240,6 +240,7 @@ body {
         background-size: 40%;
     }
 }
+
 .sfondoscopri {
     background-image: url("../images/LaCitta/header_LaCittà.svg");
     background-repeat: no-repeat;
@@ -267,9 +268,24 @@ body {
     }
 }
 
+.lineleft2 {
+    margin-top: -80px;
+    z-index: 1;
+}
+
+
+@media only screen and (min-width:1200px) {
+    .lineleft {
+        margin-top: -150px;
+    }
+}
 
 .zindex1 {
     z-index: 2;
+}
+
+.mtneg {
+    margin-top: -50px;
 }
 .cardcity {
     background-color: #FCFCFC;
