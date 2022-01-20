@@ -818,9 +818,9 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-    .img-events {
+   /* .img-events {
         display: none;
-    }
+    } */
     .right-column::before {
         margin-left: 6.5vw;
     }
