@@ -707,6 +707,14 @@ footer {
 
 
 /* _____________________________________pagina eventi_______________*/
+.margin-left-h3 {
+    margin-left: 8vw;
+}
+
+.margin-left-timeline {
+    margin-left: -1vw;
+}
+
 .fit-content {
     width: fit-content;
 }
@@ -783,6 +791,7 @@ footer {
     }
 
     /* utilizzare le classi bootstrap*/
+    /* utilizzare le classi bootstrap*/
     .right-column::before {
         margin-left: 6.5vw;
     }
@@ -805,17 +814,18 @@ footer {
     br {
         display: none; /* utilizzare le classi bootstrap*/
     }
-}
 
-.when::before {
-    content: url("../images/Eventi/calendar.svg");
-    height: 30px;
-    margin-right: 10px;
 
-}
+    .when::before {
+        content: url("../images/Eventi/calendar.svg");
+        height: 30px;
+        margin-right: 10px;
 
-.where::before {
-    content: url("../images/Eventi/position.svg");
-    height: 30px;
-    margin-right: 10px;
+    }
+
+    .where::before {
+        content: url("../images/Eventi/position.svg");
+        height: 30px;
+        margin-right: 10px;
+    }
 }
