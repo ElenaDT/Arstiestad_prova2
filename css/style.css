@@ -821,9 +821,6 @@ footer {
     .img-events {
         display: none;
     }
-
-    /* utilizzare le classi bootstrap*/
-    /* utilizzare le classi bootstrap*/
     .right-column::before {
         margin-left: 6.5vw;
     }
