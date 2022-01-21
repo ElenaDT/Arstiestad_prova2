@@ -178,6 +178,7 @@ body {
     text-decoration: none;
     background-color: #FDF3F5;
 }
+
 .whereblu::before {
     content: url("../images/Eventi/position.svg");
     height: 30px;
@@ -213,6 +214,7 @@ body {
     height: 30px;
     margin-right: 10px;
 }
+
 /* icona calendario blu ce ne sono due____________________________________*/
 .when::before {
     content: url("../images/Eventi/calendar.svg");
@@ -220,6 +222,7 @@ body {
     margin-right: 10px;
 
 }
+
 /* home_______________________________________________________*/
 /* main {
     background-image: url("images/wawe.svg");
@@ -287,6 +290,7 @@ body {
     margin-top: -100px;
     z-index: 1;
 }
+
 @media only screen and (min-width: 1200px) {
     .lineleft {
         margin-top: -150px;
@@ -297,10 +301,12 @@ body {
 .zindex1 {
     z-index: 2;
 }
+
 .lineleft2 {
     margin-top: -50px;
     z-index: 1;
 }
+
 .cardcity {
     background-color: #FCFCFC;
     border-radius: 40px;
@@ -329,11 +335,13 @@ body {
     height: 30px;
     margin-right: 10px;
 }
+
 .phoneYellow::before {
     content: url("../Icons/phoneyellow.svg");
     height: 30px;
     margin-right: 10px;
 }
+
 .emailYellow::before {
     content: url("../Icons/emailyellow.svg");
     height: 30px;
@@ -841,10 +849,8 @@ footer {
     text-align: start;
 }
 
-@media only screen and (max-width: 768px) {
-   /* .img-events {
-        display: none;
-    } */
+@media only screen and (max-width: 767px) {
+
     .right-column::before {
         margin-left: 6.5vw;
     }
@@ -868,17 +874,23 @@ footer {
         display: none; /* utilizzare le classi bootstrap*/
     }
 
-
-    .when::before {
-        content: url("../images/Eventi/calendar.svg");
-        height: 30px;
-        margin-right: 10px;
-
+    .margin-right-timeline, .margin-left-timeline {
+        margin-left: 2vw;
     }
 
-    .where::before {
-        content: url("../images/Eventi/position.svg");
-        height: 30px;
-        margin-right: 10px;
-    }
+
 }
+
+.when::before {
+    content: url("../images/Eventi/calendar.svg");
+    height: 30px;
+    margin-right: 10px;
+
+}
+
+.where::before {
+    content: url("../images/Eventi/position.svg");
+    height: 30px;
+    margin-right: 10px;
+}
+
