@@ -268,7 +268,15 @@ body {
         background-size: 50%;
     }
 }
-
+/* sfondo citi
+creare con tag section un div sotto galleria in posizione relativa poi metti le card con margin
+____________________________________________*/
+.citybgr {
+    position: relative;
+    margin-left:0;
+    margin-bottom:0;
+    z-index: -1;
+}
 .backgScopri {
     background-image: url("../images/LaCitta/header_LaCittà1.png");
     background-repeat: no-repeat;
