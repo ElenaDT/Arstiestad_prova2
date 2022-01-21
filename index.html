@@ -151,8 +151,86 @@
         </div>
     </div>
     <div class="row m-0 justify-content-center">
+        <div class="splide col-lg-10" id="splide1">
+            <div class="splide__track mb-3 mx-5">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="text-center py-3 h-100">
+                            <div class="card rounded-3 p-3 h-100">
+                                <div class="d-flex justify-content-center">
+                                    <h3 class="card-title h4 smeraldocolor"> Ritratti <br> puntinisti</h3>
+                                </div>
+                                <p class="card-body mb-0">
+                                    Mediante la tecnica del “pointillisme” francese, i colori più
+                                    rappresentativi
+                                    del soggetto
+                                    vengono accostati
+                                    sulla tela secondo i
+                                    principi
+                                    della mescolanza ottica. I
+                                    risultati sono ritratti le
+                                    cui
+                                    sfavillanti tinte si
+                                    fondono
+                                    tra di loro all’interno
+                                    dell’occhio
+                                    dell’osservatore.</p>
+                                <p class="where small"> Museo Breton</p>
+                                <p class="calendarblu small"> 3-24 Febbraio 2022</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text-center py-3 h-100">
+                            <div class="card rounded-3 p-3 h-100">
+                                <div class="d-flex justify-content-center">
+                                    <h3 class="card-title smeraldocolor h4"> Mostra <br> “René Magritte”</h3>
+                                </div>
+                                <p class="card-body mb-0">
+                                    Un percorso espositivo,immersivo e multimediale, dedicato al grande maestro
+                                    surrealista René Magritte. Grazie a una suggestiva architettura immateriale,
+                                    visuale e sonora, l’universo pittorico di Magritte riprende vita.</p>
+                                <p class="where small">Museo Onzin</p>
+                                <p class="calendarblu small"> 27 Dicembre - 10 Febbraio 2022</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text-center py-3 h-100">
+                            <div class="card rounded-3 p-3 h-100">
+                                <div class="d-flex justify-content-center">
+                                    <h3 class="card-title h4 smeraldocolor"> Block <br>Parties</h3>
+                                </div>
+                                <p class="card-body mb-0">
+                                    Il week-end la musica è materia dei dj: i suoni esotici si fondono con
+                                    quelli della metropoli quando due dischi vengono fatti girare insieme.
+                                    L’obiettivo principale è uno: ballare assieme.</p>
+                                <p class="where small">Parco Biva</p>
+                                <p class="calendarblu small"> Tutti i week-end</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="splide__slide">
+                        <div class="text-center py-3 h-100">
+                            <div class="card rounded-3 p-3 h-100">
+                                <div class="d-flex justify-content-center">
+                                    <h3 class="card-title h4 smeraldocolor"> Block <br>Parties</h3>
+                                </div>
+                                <p class="card-body mb-0">
+                                    Il week-end la musica è materia dei dj: i suoni esotici si fondono con
+                                    quelli della metropoli quando due dischi vengono fatti girare insieme.
+                                    L’obiettivo principale è uno: ballare assieme.</p>
+                                <p class="where small">Parco Biva</p>
+                                <p class="calendarblu small"> Tutti i week-end</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-        <div class="splide col-lg-10">
+
+        <div class="splide col-lg-10" id="splide2">
             <div class="splide__track mb-3 mx-5">
                 <ul class="splide__list">
                     <li class="splide__slide">
@@ -281,7 +359,20 @@
         src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.9/dist/js/splide.min.js"></script>
 <script>
-    let splide = new Splide('.splide', {
+    let splide = new Splide('#splide1', {
+        type: 'loop',
+        perPage: 3,
+        perMove: 1,
+        gap: 30,
+        breakpoints: {
+            640: {
+                perPage: 1,
+            },
+        }
+
+    });
+
+    let splide2 = new Splide('#splide2', {
         type: 'loop',
         perPage: 3,
         perMove: 1,
@@ -295,6 +386,7 @@
     });
 
     splide.mount();
+    splide2.mount();
 </script>
 
 </body>
