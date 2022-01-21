@@ -268,15 +268,17 @@ body {
         background-size: 50%;
     }
 }
+
 /* sfondo citi
 creare con tag section un div sotto galleria in posizione relativa poi metti le card con margin
 ____________________________________________*/
 .citybgr {
     position: relative;
-    margin-left:0;
-    margin-bottom:0;
+    margin-left: 0;
+    margin-bottom: 0;
     z-index: -1;
 }
+
 .backgScopri {
     background-image: url("../images/LaCitta/header_LaCittà1.png");
     background-repeat: no-repeat;
@@ -857,19 +859,14 @@ footer {
     text-align: start;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
+
+    .margin-left-timeline-md {
+        transform-origin: -1vw;
+    }
 
     .right-column::before {
-        margin-left: 6.5vw;
-    }
-
-    .timeline-element {
-        left: 3.5vw;
-        top: -3vh;
-    }
-
-    .timeline-element span {
-        margin-left: 5.5vw;
+        margin-left: 8vw;
     }
 
     .event-title-r {
@@ -878,12 +875,9 @@ footer {
         margin-left: 17vw;
     }
 
-    br {
-        display: none; /* utilizzare le classi bootstrap*/
-    }
 
     .margin-right-timeline, .margin-left-timeline {
-        margin-left: 2vw;
+        margin-left: 3vw;
     }
 
 
