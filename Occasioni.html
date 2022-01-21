@@ -280,14 +280,99 @@
                                     perse. Per dare il
                                     giusto valore a chi dedica la sua vita nel raccontare la propria realtà.</p>
                             </div>
+                        </div>
                             <div class="row justify-content-center mt-3 mt-md-1 mx-md-5">
                                 <h3 class="parigicolor">Scopri le prossime aste</h3>
-                                <!-- carosello card aste-->
+                                <div class="splide col-lg-10" id="splide2">
+                                    <div class="splide__track mb-3 mx-5">
+                                        <ul class="splide__list">
+                                            <li class="splide__slide">
+                                                <div class=" py-3 h-100">
+                                                    <div class="card rounded-3 p-1 p-md-3 h-100">
+                                                        <div class="row">
+                                                            <div class=" col-md-5">
+                                                                <img src="images/occasioni/aste1.png"
+                                                                     class="card-img p-4"
+                                                                     alt="...">
+                                                            </div>
+                                                            <div class=" col-md-7">
+                                                                <div class="card-body">
+                                                                    <h4 class=" thin smeraldocolor">Smile</h4>
+                                                                    <p class="card-text">Autore:  Mr. Brainwash <br>
+                                                                        Anno: 2020 <br>
+                                                                        Valore di partenza: 10.000$<br>
+                                                                        Attuale proprietario: John Magic</p>
+                                                                    <p class="card-text smeraldocolor"><strong>Fai
+                                                                        un'offerta!</strong></p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row justify-content-center">
+                                                            <div class=" col-md-5">
+                                                            <input type="text" class="form-control btnoffer"
+                                                                   placeholder="La tua offerta" aria-label="Username"
+                                                                   aria-describedby="addon-wrapping">
+                                                            </div>
+                                                            <div class=" col-md-5">
+                                                            <button class="btn btnBlu"> Conferma l'offerta</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="splide__slide">
+                                                <div class="text-center py-3 h-100">
+                                                    <div class="card rounded-3 p-3 h-100">
+                                                        <div class="d-flex justify-content-center">
+                                                            <h3 class="card-title smeraldocolor h4"> Mostra <br> “René Magritte”</h3>
+                                                        </div>
+                                                        <p class="card-body mb-0">
+                                                            Un percorso espositivo,immersivo e multimediale, dedicato al grande maestro
+                                                            surrealista René Magritte. Grazie a una suggestiva architettura immateriale,
+                                                            visuale e sonora, l’universo pittorico di Magritte riprende vita.</p>
+                                                        <p class="where small">Museo Onzin</p>
+                                                        <p class="calendarblu small"> 27 Dicembre - 10 Febbraio 2022</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="splide__slide">
+                                                <div class="text-center py-3 h-100">
+                                                    <div class="card rounded-3 p-3 h-100">
+                                                        <div class="d-flex justify-content-center">
+                                                            <h3 class="card-title h4 smeraldocolor"> Block <br>Parties</h3>
+                                                        </div>
+                                                        <p class="card-body mb-0">
+                                                            Il week-end la musica è materia dei dj: i suoni esotici si fondono con
+                                                            quelli della metropoli quando due dischi vengono fatti girare insieme.
+                                                            L’obiettivo principale è uno: ballare assieme.</p>
+                                                        <p class="where small">Parco Biva</p>
+                                                        <p class="calendarblu small"> Tutti i week-end</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li class="splide__slide">
+                                                <div class="text-center py-3 h-100">
+                                                    <div class="card rounded-3 p-3 h-100">
+                                                        <div class="d-flex justify-content-center">
+                                                            <h3 class="card-title h4 smeraldocolor"> Block <br>Parties</h3>
+                                                        </div>
+                                                        <p class="card-body mb-0">
+                                                            Il week-end la musica è materia dei dj: i suoni esotici si fondono con
+                                                            quelli della metropoli quando due dischi vengono fatti girare insieme.
+                                                            L’obiettivo principale è uno: ballare assieme.</p>
+                                                        <p class="where small">Parco Biva</p>
+                                                        <p class="calendarblu small"> Tutti i week-end</p>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
 
                             </div>
                         </div>
                     </div>
-                </div>
                     <!-- SEZIONE COMPRAVENDITA-->
                     <div class="accordionBody mb-3">
                         <div class="card-header accordionHeader d-flex justify-content-center" id="headingThree">
@@ -699,8 +784,21 @@
         }
 
     });
+    let splide2 = new Splide('#splide2', {
+        type: 'loop',
+        perPage: 1,
+        perMove: 1,
+        gap: 30,
+        breakpoints: {
+            640: {
+                perPage: 1,
+            },
+        }
+
+    });
 
     splide.mount();
+    splide2.mount();
 </script>
 
 </body>

@@ -33,7 +33,12 @@ h3 {
     font-size: 1.3rem;
 
 }
-
+h4 {
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.3rem;
+}
 body {
     font-family: 'Raleway', sans-serif;
     font-style: normal;
@@ -56,7 +61,9 @@ body {
     font-weight: bolder;
     font-size: 1.5rem;
 }
-
+.thin {
+    font-weight: normal;
+}
 .parigicolor {
     color: #DF375B;
     font-weight: bold;
@@ -127,7 +134,6 @@ body {
     font-family: Comfortaa, cursive;
     font-style: normal;
     font-size: 18px;
-    line-height: 22px;
     color: #F3F9FA;
     position: relative;
     z-index: 100; /* in maniera tale che i div sottostanti non coprano la sua ombra*/
@@ -269,9 +275,7 @@ body {
     }
 }
 
-/* sfondo citi
-creare con tag section un div sotto galleria in posizione relativa poi metti le card con margin
-____________________________________________*/
+
 .citybgr {
     position: relative;
     margin-left: 0;
@@ -279,7 +283,7 @@ ____________________________________________*/
     z-index: -1;
 }
 
-.backgScopri {
+.bgnScopri {
     background-image: url("../images/LaCitta/header_LaCittà1.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -404,6 +408,19 @@ ____________________________________________*/
 .accordionBody {
     border-style: none;
     background-color: #FFFFFF;
+}
+.btnoffer {
+    background: #FFFFFF;
+    border: 2px solid #298D9F;
+    box-sizing: border-box;
+    border-radius: 40px;
+    font-family: Comfortaa, cursive;
+    font-style: normal;
+    font-size: 16px;
+}
+.btnoffer:focus {
+    border: 2px solid #298D9F;
+    box-shadow: 0px 6px 16px rgba(41, 141, 159, 0.5);
 }
 
 /* Didattica____________________________________________*/
