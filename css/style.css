@@ -178,6 +178,11 @@ body {
     text-decoration: none;
     background-color: #FDF3F5;
 }
+.whereblu::before {
+    content: url("../images/Eventi/position.svg");
+    height: 30px;
+    margin-right: 10px;
+}
 
 .whereyellow::before {
     content: url("../Icons/positionyellow.svg");
@@ -208,7 +213,13 @@ body {
     height: 30px;
     margin-right: 10px;
 }
+/* icona calendario blu ce ne sono due____________________________________*/
+.when::before {
+    content: url("../images/Eventi/calendar.svg");
+    height: 30px;
+    margin-right: 10px;
 
+}
 /* home_______________________________________________________*/
 /* main {
     background-image: url("images/wawe.svg");
@@ -230,7 +241,8 @@ body {
 
 /* Home____________________________________________*/
 .sfondohome {
-    background: url("../images/index/onda_home.png") no-repeat;
+    background-image: url("../images/index/onda_home.png");
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     margin-top: 48px;
@@ -250,12 +262,12 @@ body {
 
 @media only screen and (min-width: 1200px) {
     .citybackground {
-        background-size: 40%;
+        background-size: 50%;
     }
 }
 
-.sfondoscopri {
-    background-image: url("../images/LaCitta/header_LaCittà.svg");
+.backgScopri {
+    background-image: url("../images/LaCitta/header_LaCittà1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -392,7 +404,7 @@ body {
 
 /* Come raggiungerci____________________________________________*/
 .sfondoragg {
-    background: url("../images/ComeRaggiungerci/header_COMERAGGIUNGERCI.svg") no-repeat;
+    background: url("../images/ComeRaggiungerci/header_COMERAGGIUNGERCI1.png") no-repeat;
     background-size: cover;
     background-position: bottom;
     margin-top: 48px;
@@ -431,7 +443,7 @@ body {
 
 /* Eventi____________________________________________*/
 .sfondoeventi {
-    background: url("../images/Eventi/SFONDO_EVENTI.svg") no-repeat;
+    background: url("../images/Eventi/Header_Eventi1.png") no-repeat;
     background-size: cover;
     background-position: bottom;
     margin-top: 48px;
