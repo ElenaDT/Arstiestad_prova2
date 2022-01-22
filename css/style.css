@@ -830,6 +830,7 @@ footer {
     display: block;
     position: absolute;
     z-index: -100;
+    top: 17px;
 }
 
 .timeline-element-r {
