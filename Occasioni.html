@@ -82,7 +82,7 @@
 </header>
 <main class="container-fluid p-0">
     <!-- SEZIONE HEADER-->
-    <div class="row justify-content-center backgOccasioni mx-0">
+    <div class="row justify-content-center bgrOccasioni mx-0">
         <div class="col-10 col-md-10 pt-4 pt-md-5">
             <h1 class="lightcolor display-3"> Occasioni Per <br> Artisti Emergenti </h1>
             <p class="lightcolor pt-0 pt-md-2 text24"> Una comunità che non sostiene i propri artisti sacrifica
@@ -102,11 +102,12 @@
                     <div class="card-header accordionHeader d-flex justify-content-center" id="headingOne">
                         <h2 class="mb-0">
                             <button aria-controls="collapseOne" aria-expanded="true"
-                                    class="h2 accordionstyleBlu accordionButton p-3  "
+                                    class="icontitle h2 accordionstyleBlu accordionButton p-3 "
                                     data-target="#collapseOne" data-toggle="collapse" type="button">
                                 Spazi disponibili
                             </button>
                         </h2>
+                       <!-- <img src="Icons/frecciaaccordion.svg"> -->
                     </div>
                     <div aria-labelledby="headingOne" class="collapse" data-parent="#accordionExample" id="collapseOne">
                         <div class="row justify-content-center mt-3 mt-md-5 mx-md-5">
@@ -116,7 +117,7 @@
                                     vuoto è solo
                                     perché qualcuno non ha ancora avuto modo di esprimersi. <br>
                                     Collabora con noi nel creare la città che più rappresenta i suoi abitanti.</p>
-                                <a class="btn btnGiallo btn-lg mt-md-3 mb-3 mb-sm-5" href="#formPartecipation"
+                                <a class="btn btnYellow btn-lg mt-md-3 mb-3 mb-sm-5" href="#formPartecipation"
                                    role="button">Compila il form</a>
                             </div>
                             <div class="col-10 col-md-4 p-4 d-none d-sm-block">
@@ -258,7 +259,7 @@
                     <div class="card-header accordionHeader d-flex justify-content-center" id="headingTwo">
                         <h2 class="mb-0">
                             <button aria-controls="collapseTwo" aria-expanded="false"
-                                    class="h2 accordionstyleBlu accordionButton p-3"
+                                    class="icontitle h2 accordionstyleBlu accordionButton p-3"
                                     data-target="#collapseTwo" data-toggle="collapse" type="button">
                                 Aste
                             </button>
@@ -526,9 +527,9 @@
                 <!-- SEZIONE COMPRAVENDITA-->
                 <div class="accordionBody mb-3">
                     <div class="card-header accordionHeader d-flex justify-content-center" id="headingThree">
-                        <h2 class="mb-0">
+                        <h2 class="mb-0 ">
                             <button aria-controls="collapseThree" aria-expanded="false"
-                                    class="h2 accordionstyleBlu accordionButton p-3"
+                                    class="icontitle h2 accordionstyleBlu accordionButton p-3"
                                     data-target="#collapseThree" data-toggle="collapse" type="button">
                                 Compravendita
                             </button>
@@ -588,7 +589,7 @@
                     <div class="card-header accordionHeader d-flex justify-content-center" id="headingFour">
                         <h2 class="mb-0">
                             <button aria-controls="collapseFour" aria-expanded="false"
-                                    class="h2 accordionstyleBlu accordionButton p-3"
+                                    class="icontitle h2 accordionstyleBlu accordionButton p-3"
                                     data-target="#collapseFour" data-toggle="collapse" type="button">
                                 Mostre
                             </button>
@@ -666,7 +667,7 @@
                     <div class="card-header accordionHeader d-flex justify-content-center" id="headingFive">
                         <h2 class="mb-0">
                             <button aria-controls="collapseFive" aria-expanded="false"
-                                    class="h2 accordionstyleBlu accordionButton p-3"
+                                    class="icontitle h2 accordionstyleBlu accordionButton p-3"
                                     data-target="#collapseFive" data-toggle="collapse" type="button">
                                 Musica e concerti
                             </button>
@@ -757,7 +758,7 @@
                     <div class="card-header accordionHeader d-flex justify-content-center" id="headingSix">
                         <h2 class="mb-0">
                             <button aria-controls="collapseSix" aria-expanded="false"
-                                    class="h2 accordionstyleBlu accordionButton p-3"
+                                    class="icontitle h2 accordionstyleBlu accordionButton p-3"
                                     data-target="#collapseSix" data-toggle="collapse" type="button">
                                 Iniziative
                             </button>
@@ -944,6 +945,16 @@
 
     splide.mount();
     splide2.mount();
+
+    var acc = document.getElementsByClassName("icontitle");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+        });
+    }
+
 </script>
 
 </body>

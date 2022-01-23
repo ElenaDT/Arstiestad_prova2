@@ -100,6 +100,13 @@ body {
 .darkcolor {
     color: #333C3F;
 }
+.subtitleBold {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
 
 .text24 {
     font-size: 18px;
@@ -118,7 +125,7 @@ body {
     font-weight: bold;
 }
 
-.btnGiallo {
+.btnYellow {
     border-radius: 40px;
     box-shadow: 0 5px 15px rgba(250, 182, 13, 0.5);
     background-color: #F5C042;
@@ -189,6 +196,14 @@ body {
     background-color: #FDF3F5;
 }
 
+.nextphoto {
+    content: url("../Icons/nextphoto.svg");
+}
+
+.prevphoto {
+    content: url("../Icons/prevphoto.svg");
+}
+
 .whereblu::before {
     content: url("../images/Eventi/position.svg");
     height: 30px;
@@ -233,6 +248,66 @@ body {
 
 }
 
+.phoneYellow::before {
+    content: url("../Icons/phoneyellow.svg");
+    height: 30px;
+    margin-right: 10px;
+}
+
+.emailYellow::before {
+    content: url("../Icons/emailyellow.svg");
+    height: 30px;
+    margin-right: 10px;
+}
+.email::before {
+    content: url("../Icons/email1.svg");
+    height: 30px;
+    margin-right: 10px;
+}
+
+.phone::before {
+    content: url("../Icons/phone1.svg");
+    height: 30px;
+    margin-right: 10px;
+}
+
+.positionimpress::before{
+    content: url("../Icons/Vector.svg");
+    height: 30px;
+    margin-right: 10px;
+}
+.calendarimpress::before {
+    content: url("../Icons/calendarioarancio.svg");
+    height: 30px;
+    margin-right: 10px;
+}
+
+.positionsurr::before{
+    content: url("../Icons/posizionesurrealismo.svg");
+    height: 30px;
+    margin-right: 10px;
+}
+.calendarsurr::before {
+    content: url("../Icons/calendariosurrealismo.svg");
+    height: 30px;
+    margin-right: 10px;
+}
+
+.positionstreet::before {
+    content: url("../Icons/posiztionverde.svg");
+    height: 30px;
+    margin-right: 10px;
+}
+.calendarstreet::before {
+    content: url("../Icons/calendarverde.svg");
+    height: 30px;
+    margin-right: 10px;
+}
+.cardShadow {
+    border-radius: 40px;
+    box-shadow: 0px 10px 50px 0px #91A8D533;
+    border-style: hidden;
+}
 /* home_______________________________________________________*/
 /* main {
     background-image: url("images/wawe.svg");
@@ -253,7 +328,7 @@ body {
  */
 
 /* Home____________________________________________*/
-.sfondohome {
+.bgrhome {
     background-image: url("../images/index/onda_home.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -264,44 +339,14 @@ body {
 
 /* La città____________________________________________*/
 
-@media only screen and (min-width: 600px) {
-    .citybackground {
-        background-image: url("../images/LaCitta/statuacittà.svg");
-        background-repeat: no-repeat;
-        background-position: bottom left;
-        background-size: 50%;
-    }
-}
 
-@media only screen and (min-width: 1200px) {
-    .citybackground {
-        background-size: 50%;
-    }
-}
-
-
-.citybgr {
-    position: relative;
-    margin-left: 0;
-    margin-bottom: 0;
-    z-index: -1;
-}
-
-.bgnScopri {
+.bgrCity {
     background-image: url("../images/LaCitta/header_LaCittà1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     margin-top: 48px;
     height: 500px;
-}
-
-.subtitleBold {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
 }
 
 .lineleft {
@@ -332,42 +377,14 @@ body {
     box-shadow: 0px 10px 50px 0px #91A8D533;
 }
 
-.cardShadow {
-    border-radius: 40px;
-    box-shadow: 0px 10px 50px 0px #91A8D533;
-    border-style: hidden;
-}
 
 .noborder {
     border-style: none;
 }
 
-.whereyellow::before {
-    content: url("../Icons/positionyellow.svg");
-    height: 30px;
-    margin-right: 10px;
-}
-
-.whereFucsia::before {
-    content: url("../Icons/posizionefucsia.svg");
-    height: 30px;
-    margin-right: 10px;
-}
-
-.phoneYellow::before {
-    content: url("../Icons/phoneyellow.svg");
-    height: 30px;
-    margin-right: 10px;
-}
-
-.emailYellow::before {
-    content: url("../Icons/emailyellow.svg");
-    height: 30px;
-    margin-right: 10px;
-}
 
 /* Vivere la città____________________________________________*/
-.sfondovivere {
+.bgrVivere {
     background: url("../images/ViverelaCittà/Header_VivereLaCittà1.png") no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -375,16 +392,10 @@ body {
     height: 500px;
 }
 
-.subtitleBold {
-    font-family: Raleway;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 28px;
-}
+
 
 /* Occasioni____________________________________________*/
-.backgOccasioni {
+.bgrOccasioni {
     background: url("../images/occasioni/Header_occasioni.png") no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -395,11 +406,13 @@ body {
 .accordionstyleBlu {
     color: #298D9F;
     font-weight: bold;
+
 }
 
 .accordionButton {
     border-style: none;
     background-color: #FFFFFF;
+
 }
 
 .accordionHeader {
@@ -409,10 +422,24 @@ body {
     border-radius: 10px;
 }
 
+
+
+.icontitle::after{
+    content: url("../Icons/frecciaaccordion.svg");
+}
+.icontitle.active::after {
+    content: url("../Icons/frecciasuaccordion.svg");
+}
+
+
+
+
 .accordionBody {
     border-style: none;
     background-color: #FFFFFF;
 }
+
+
 
 .btnoffer {
     background: #FFFFFF;
@@ -430,7 +457,7 @@ body {
 }
 
 /* Didattica____________________________________________*/
-.backgDidattica {
+.bgrDidattica {
     background: url("../images/didattica/SFONDO_DIDATTICA.png") no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -442,9 +469,15 @@ body {
     color: #DF375B;
     font-weight: bold;
 }
+.icontitle2::after{
+    content: url("../Icons/frecciafucsia2.svg");
 
+}
+.icontitle2.active::after {
+    content: url("../Icons/frecciasu2.svg");
+}
 /* Come raggiungerci____________________________________________*/
-.sfondoragg {
+.bgrRaggiungere {
     background: url("../images/ComeRaggiungerci/header_COMERAGGIUNGERCI1.png") no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -462,28 +495,10 @@ body {
     box-shadow: 0px 4px 30px 0px #00000033;
 }
 
-.email::before {
-    content: url("../Icons/email1.svg");
-    height: 30px;
-    margin-right: 10px;
-}
 
-.phone::before {
-    content: url("../Icons/phone1.svg");
-    height: 30px;
-    margin-right: 10px;
-}
-
-.nextphoto {
-    content: url("../Icons/nextphoto.svg");
-}
-
-.prevphoto {
-    content: url("../Icons/prevphoto.svg");
-}
 
 /* Eventi____________________________________________*/
-.sfondoeventi {
+.bgrEventi {
     background: url("../images/Eventi/Header_Eventi1.png") no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -561,7 +576,7 @@ body {
 
 }
 
-.onda, .img-fluid {
+.wave, .img-fluid {
     width: 100%;
 }
 
@@ -620,7 +635,7 @@ body {
     }
 }
 
-.ondina-surr {
+.littlewave-surr {
     position: absolute;
     top: 16px;
     left: 0;
@@ -637,7 +652,7 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#667b28", endColorstr="#969e40", GradientType=1);
 }
 
-.onda-form {
+.wave-form {
     position: relative;
     margin-top: -37px;
 }
@@ -662,7 +677,9 @@ body {
 p.d-block {
     width: 50vw;
 }
-
+.green-text {
+    color:#677D2A;
+}
 @media only screen and (max-width: 1000px) {
     p.d-block {
         width: 90vw;
@@ -681,7 +698,7 @@ p.d-block {
     position: relative;
 }
 
-.bacio {
+.kiss {
     position: absolute;
     top: 2vh;
     right: 3vw;
@@ -748,13 +765,13 @@ footer {
         font-size: 1.5em;
     }
 
-    .bacio {
+    .kiss {
         height: 28vh;
         top: -27px;
         right: 4px;
     }
 
-    .onda-form {
+    .wave-formv {
         top: 30px
     }
 
@@ -762,11 +779,11 @@ footer {
         width: 100vw;
     }
 
-    .ondina-surr {
+    .littlewave-surr {
         top: 12px;
     }
 
-    .onda {
+    .wave {
         position: absolute;
         top: -3px;
     }
@@ -775,12 +792,12 @@ footer {
 /* ipad*/
 @media only screen and (max-width: 1200px) {
 
-    .onda {
+    .wave {
         position: absolute;
         top: -4px;
     }
 
-    .bacio {
+    .kiss {
         height: 32vh;
         top: -22px;
         right: 4px;
