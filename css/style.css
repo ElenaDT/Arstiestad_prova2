@@ -100,6 +100,7 @@ body {
 .darkcolor {
     color: #333C3F;
 }
+
 .subtitleBold {
     font-family: Raleway;
     font-style: normal;
@@ -239,13 +240,16 @@ body {
     height: 30px;
     margin-right: 10px;
 }
+
 .splide__pagination__page.is-active {
     background: #DF375B;
 }
+
 .splide__pagination__page {
     background: grey;
 }
-    /* icona calendario blu ce ne sono due____________________________________*/
+
+/* icona calendario blu ce ne sono due____________________________________*/
 .when::before {
     content: url("../images/Eventi/calendar.svg");
     height: 30px;
@@ -264,6 +268,7 @@ body {
     height: 30px;
     margin-right: 10px;
 }
+
 .email::before {
     content: url("../Icons/email1.svg");
     height: 30px;
@@ -276,22 +281,24 @@ body {
     margin-right: 10px;
 }
 
-.positionimpress::before{
+.positionimpress::before {
     content: url("../Icons/Vector.svg");
     height: 30px;
     margin-right: 10px;
 }
+
 .calendarimpress::before {
     content: url("../Icons/calendarioarancio.svg");
     height: 30px;
     margin-right: 10px;
 }
 
-.positionsurr::before{
+.positionsurr::before {
     content: url("../Icons/posizionesurrealismo.svg");
     height: 30px;
     margin-right: 10px;
 }
+
 .calendarsurr::before {
     content: url("../Icons/calendariosurrealismo.svg");
     height: 30px;
@@ -303,16 +310,19 @@ body {
     height: 30px;
     margin-right: 10px;
 }
+
 .calendarstreet::before {
     content: url("../Icons/calendarverde.svg");
     height: 30px;
     margin-right: 10px;
 }
+
 .cardShadow {
     border-radius: 40px;
     box-shadow: 0px 10px 50px 0px #91A8D533;
     border-style: hidden;
 }
+
 /* home_______________________________________________________*/
 /* main {
     background-image: url("images/wawe.svg");
@@ -399,7 +409,6 @@ body {
 }
 
 
-
 /* Occasioni____________________________________________*/
 .bgrOccasioni {
     background: url("../images/occasioni/Header_occasioni.png") no-repeat;
@@ -429,22 +438,19 @@ body {
 }
 
 
-
-.icontitle::after{
+.icontitle::after {
     content: url("../Icons/frecciaaccordion.svg");
 }
+
 .icontitle.active::after {
     content: url("../Icons/frecciasuaccordion.svg");
 }
-
-
 
 
 .accordionBody {
     border-style: none;
     background-color: #FFFFFF;
 }
-
 
 
 .btnoffer {
@@ -475,13 +481,16 @@ body {
     color: #DF375B;
     font-weight: bold;
 }
-.icontitle2::after{
+
+.icontitle2::after {
     content: url("../Icons/frecciafucsia2.svg");
 
 }
+
 .icontitle2.active::after {
     content: url("../Icons/frecciasu2.svg");
 }
+
 /* Come raggiungerci____________________________________________*/
 .bgrRaggiungere {
     background: url("../images/ComeRaggiungerci/header_COMERAGGIUNGERCI1.png") no-repeat;
@@ -500,7 +509,6 @@ body {
     border-radius: 40px;
     box-shadow: 0px 4px 30px 0px #00000033;
 }
-
 
 
 /* Eventi____________________________________________*/
@@ -683,9 +691,11 @@ body {
 p.d-block {
     width: 50vw;
 }
+
 .green-text {
-    color:#677D2A;
+    color: #677D2A;
 }
+
 @media only screen and (max-width: 1000px) {
     p.d-block {
         width: 90vw;
@@ -939,5 +949,19 @@ footer {
     content: url("../images/Eventi/position.svg");
     height: 30px;
     margin-right: 10px;
+}
+
+.splide__arrow {
+    background-color: #F5C042;
+}
+
+.prevphoto {
+    height: 45px;
+    margin-left: -50px;
+}
+
+.nextphoto {
+    height: 45px;
+    margin-right: -50px;
 }
 
