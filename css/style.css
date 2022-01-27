@@ -186,9 +186,11 @@ body {
     text-decoration-thickness: 0.15em;
 
 }
+
 .nav-link {
     margin-right: 10px;
 }
+
 .dropdown-item {
     color: #333C3F;
 }
@@ -865,7 +867,7 @@ footer {
 }
 
 
-.right-column::before {
+#january::before {
     content: url("../images/Eventi/line.svg");
     display: block;
     position: absolute;
