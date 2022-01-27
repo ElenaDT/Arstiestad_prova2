@@ -166,7 +166,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    font-weight: bolder;
+    font-weight: 600;
     color: #333C3F; /* si dovrebbe sovrascrivere la classe black di bootstrap con questo codice e utilizzarla... */
 }
 
@@ -186,7 +186,9 @@ body {
     text-decoration-thickness: 0.15em;
 
 }
-
+.nav-link {
+    margin-right: 10px;
+}
 .dropdown-item {
     color: #333C3F;
 }
