@@ -110,9 +110,9 @@ body {
 }
 
 .text24 {
-    font-size: 18px;
+
     font-weight: normal;
-    line-height: 28px;
+    line-height: 24px;
 }
 
 @media only screen and (min-width: 720px) {
@@ -494,6 +494,10 @@ body {
 /* Come raggiungerci____________________________________________*/
 .min-height-115 {
     min-height: 115px;
+}
+
+.line-height {
+    line-height: initial;
 }
 
 .bgrRaggiungere {
@@ -968,4 +972,3 @@ footer {
     height: 45px;
     margin-right: -50px;
 }
-
