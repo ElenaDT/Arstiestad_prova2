@@ -516,12 +516,6 @@ body {
     box-shadow: 0px 4px 30px 0px #00000033;
 }
 
-@media screen and (min-width: 768px) {
-    .min-height-115 {
-        min-height: 115px;
-    }
-}
-
 /* Eventi____________________________________________*/
 .bgrEventi {
     background: url("../images/Eventi/Header_Eventi1.png") no-repeat;
