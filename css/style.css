@@ -873,6 +873,10 @@ footer {
 
 }
 
+.w40vw {
+    max-width: 41.5vw;
+}
+
 .column::before {
     content: url("../images/Eventi/line.svg");
     display: block;
