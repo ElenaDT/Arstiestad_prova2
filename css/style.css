@@ -862,12 +862,18 @@ footer {
     max-width: 35px;
 }
 
-.right-column {
-    position: relative
+@media screen and (max-width: 320px) {
+    .column2::before {
+        content: url("../images/Eventi/line.svg");
+        display: block;
+        position: absolute;
+        z-index: -100;
+        top: -600px;
+    }
+
 }
 
-
-#january::before {
+.column::before {
     content: url("../images/Eventi/line.svg");
     display: block;
     position: absolute;
