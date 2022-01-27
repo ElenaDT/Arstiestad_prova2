@@ -494,8 +494,10 @@ body {
 }
 
 /* Come raggiungerci____________________________________________*/
-.min-height-115 {
-    min-height: 115px;
+
+
+.line-height {
+    line-height: initial;
 }
 
 .bgrRaggiungere {
@@ -516,6 +518,11 @@ body {
     box-shadow: 0px 4px 30px 0px #00000033;
 }
 
+@media screen and (min-width: 768px) {
+    .min-height-115 {
+        min-height: 115px;
+    }
+}
 
 /* Eventi____________________________________________*/
 .bgrEventi {
@@ -970,4 +977,3 @@ footer {
     height: 45px;
     margin-right: -50px;
 }
-
