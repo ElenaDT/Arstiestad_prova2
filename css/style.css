@@ -492,6 +492,10 @@ body {
 }
 
 /* Come raggiungerci____________________________________________*/
+.min-height-115 {
+    min-height: 115px;
+}
+
 .bgrRaggiungere {
     background: url("../images/ComeRaggiungerci/header_COMERAGGIUNGERCI1.png") no-repeat;
     background-size: cover;
@@ -957,7 +961,7 @@ footer {
 
 .prevphoto {
     height: 45px;
-    margin-left: -50px;
+    margin-left: -60px;
 }
 
 .nextphoto {
