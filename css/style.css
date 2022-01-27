@@ -112,7 +112,7 @@ body {
 .text24 {
     font-size: 18px;
     font-weight: normal;
-    line-height: 24px;
+    line-height: 28px;
 }
 
 @media only screen and (min-width: 720px) {
@@ -492,9 +492,7 @@ body {
 }
 
 /* Come raggiungerci____________________________________________*/
-.min-height-115 {
-    min-height: 115px;
-}
+
 
 .line-height {
     line-height: initial;
@@ -518,6 +516,11 @@ body {
     box-shadow: 0px 4px 30px 0px #00000033;
 }
 
+@media screen and (min-width: 768px) {
+    .min-height-115 {
+        min-height: 115px;
+    }
+}
 
 /* Eventi____________________________________________*/
 .bgrEventi {
