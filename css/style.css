@@ -409,6 +409,11 @@ body {
     border-style: none;
 }
 
+@media screen and (max-width: 320px) {
+    .statue {
+        display: none;
+    }
+}
 
 /* Vivere la città____________________________________________*/
 .bgrVivere {
