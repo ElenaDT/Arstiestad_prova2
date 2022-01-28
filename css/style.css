@@ -680,6 +680,11 @@ body {
     margin-top: -11px;
 }
 
+.wawe {
+    position: relative;
+    top: -1px;
+}
+
 .street-art {
     background-image: url("../images/Quartieri/streetart.png");
     background-size: cover;
@@ -835,7 +840,7 @@ footer {
 
     .child_surrealismo {
         height: 40vh;
-        top: 690px;
+        top: 698px;
 
     }
 }
