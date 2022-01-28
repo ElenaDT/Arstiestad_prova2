@@ -359,6 +359,11 @@ body {
 
 /* La città____________________________________________*/
 
+.statue {
+    top: 30vh;
+    left: 0;
+    width: 50%;
+}
 
 .bgrCity {
     background-image: url("../images/LaCitta/header_LaCittà1.png");
