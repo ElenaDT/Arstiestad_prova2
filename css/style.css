@@ -660,7 +660,7 @@ body {
 
 .littlewave-surr {
     position: absolute;
-    top: 16px;
+    top: 24px;
     left: 0;
     z-index: 100;
 }
@@ -677,7 +677,7 @@ body {
 
 .wave-form {
     position: relative;
-    margin-top: -37px;
+    margin-top: -11px;
 }
 
 .street-art {
