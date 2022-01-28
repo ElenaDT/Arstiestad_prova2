@@ -323,7 +323,7 @@ body {
 
 .cardShadow {
     border-radius: 40px;
-    box-shadow: 0px 10px 50px 0px #91A8D533;
+    box-shadow: 0 10px 50px 0 #91A8D533;
     border-style: hidden;
 }
 
@@ -875,6 +875,15 @@ footer {
 
 .w40vw {
     max-width: 41.5vw;
+}
+
+@media screen and (min-width: 730px) {
+    .left-row {
+        position: relative;
+        left: 4vw;
+        max-width: 46vw;
+    }
+
 }
 
 .column::before {
