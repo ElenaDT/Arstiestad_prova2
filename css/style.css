@@ -360,6 +360,8 @@ body {
 /* La città____________________________________________*/
 
 .statue {
+    position: relative;
+    z-index: 0;
     top: 30vh;
     left: 0;
     width: 50%;
@@ -741,10 +743,13 @@ p.d-block {
 }
 
 #back-to-top {
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+    z-index: -100;
     display: inline-block;
     height: 30px;
     width: 30px;
-    margin-right: 15px;
 }
 
 .text-form {
