@@ -868,7 +868,7 @@ footer {
         display: block;
         position: absolute;
         z-index: -100;
-        top: -600px;
+        top: -700px;
     }
 
 }
