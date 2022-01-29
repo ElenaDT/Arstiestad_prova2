@@ -876,30 +876,9 @@ footer {
 .icon {
     max-width: 35px;
 }
-/* mobile*/
-@media screen and (max-width: 320px) {
-    .column2::before {
-        content: url("../images/Eventi/line.svg");
-        display: block;
-        position: absolute;
-        z-index: -100;
-        top: -700px;
-        left: 11vw;
-    }
 
-    .column::before {
-        left: 11vw;
-    }
-
-    h3 {
-        margin-left: 16vw;
-        text-align: left;
-    }
-}
-
-
-/*tablet e desktop*/
-@media screen and (min-width: 730px) {
+/*______________________________________________desktop*/
+@media screen and (min-width: 768px) {
     .left-row {
         position: relative;
         left: 4vw;
@@ -910,6 +889,37 @@ footer {
         max-width: 41.5vw;
     }
 }
+
+/*__________________________________tablet*/
+@media screen and (min-width: 768px) {
+    h3 {
+        margin-left: 13vw;
+        text-align: left;
+    }
+}
+
+/* _________________________________________mobile*/
+@media screen and (max-width: 320px) {
+    .column2::before {
+        content: url("../images/Eventi/line.svg");
+        display: block;
+        position: absolute;
+        z-index: -100;
+        top: -700px;
+        left: 8vw;
+    }
+
+    .column::before {
+        left: 8vw;
+    }
+
+    h3 {
+        margin-left: 16vw;
+        text-align: left;
+    }
+
+}
+
 
 .column::before {
     content: url("../images/Eventi/line.svg");
@@ -967,29 +977,6 @@ footer {
     text-align: start;
 }
 
-@media only screen and (max-width: 768px) {
-
-    .margin-left-timeline-md {
-        transform-origin: -1vw;
-    }
-
-    .right-column::before {
-        margin-left: 8vw;
-    }
-
-    .event-title-r {
-        text-align: start;
-        width: fit-content;
-        margin-left: 17vw;
-    }
-
-
-    .margin-right-timeline, .margin-left-timeline {
-        margin-left: 3vw;
-    }
-
-
-}
 
 .when::before {
     content: url("../images/Eventi/calendar.svg");
