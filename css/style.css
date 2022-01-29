@@ -876,7 +876,7 @@ footer {
 .icon {
     max-width: 35px;
 }
-
+/* mobile*/
 @media screen and (max-width: 320px) {
     .column2::before {
         content: url("../images/Eventi/line.svg");
@@ -884,14 +884,21 @@ footer {
         position: absolute;
         z-index: -100;
         top: -700px;
+        left: 11vw;
     }
 
+    .column::before {
+        left: 11vw;
+    }
+
+    h3 {
+        margin-left: 16vw;
+        text-align: left;
+    }
 }
 
-.w40vw {
-    max-width: 41.5vw;
-}
 
+/*tablet e desktop*/
 @media screen and (min-width: 730px) {
     .left-row {
         position: relative;
@@ -899,6 +906,9 @@ footer {
         max-width: 46vw;
     }
 
+    .w40vw {
+        max-width: 41.5vw;
+    }
 }
 
 .column::before {
@@ -922,7 +932,7 @@ footer {
 }
 
 .event {
-    max-width: 66%;
+    max-width: 75%;
 }
 
 .months-span {
