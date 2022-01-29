@@ -892,9 +892,22 @@ footer {
 
 /*__________________________________tablet*/
 @media screen and (min-width: 768px) and (max-width: 1000px) {
+
+    .column::before {
+        left: 8vw;
+    }
+
     .title {
         margin-left: 16vw;
         text-align: left;
+    }
+
+    .margin-left-timeline {
+        margin-left: 4.5vw;
+    }
+
+    .margin-right-timeline {
+        margin-left: 4.5vw;
     }
 }
 
@@ -920,6 +933,7 @@ footer {
 
 }
 
+/*-----*/
 
 .column::before {
     content: url("../images/Eventi/line.svg");
