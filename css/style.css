@@ -120,6 +120,12 @@ body {
         font-size: 24px;
     }
 }
+.btn-primary:hover {
+    background: #F9DCE2;
+    border: 1px solid #DF375B;
+    box-shadow: 0px 6px 16px rgba(223, 55, 91, 0.5);
+    color: #DF375B;
+}
 
 .btn-light {
     background-color: #F5C042;
@@ -138,6 +144,12 @@ body {
     position: relative;
     z-index: 100; /* in maniera tale che i div sottostanti non coprano la sua ombra*/
 }
+.btnYellow:hover {
+    background: #FFF8E7;
+    border: 1px solid #F5C042;
+    box-shadow: 0px 6px 16px rgba(250, 182, 13, 0.5);
+    color: #F5C042;
+}
 
 .btnBlu {
     border-radius: 40px;
@@ -150,7 +162,12 @@ body {
     position: relative;
     z-index: 100; /* in maniera tale che i div sottostanti non coprano la sua ombra*/
 }
-
+.btnBlu:hover {
+    background: #BED9DE;
+    border: 1px solid #298D9F;
+    box-shadow: 0px 6px 16px rgba(41, 141, 159, 0.5);
+    color: #298D9F;
+}
 .btnFucsia {
     border-radius: 40px;
     background: #DF375B;
@@ -163,6 +180,12 @@ body {
     color: #F3F9FA;
     position: relative;
     z-index: 100; /* in maniera tale che i div sottostanti non coprano la sua ombra*/
+}
+.btnFucsia:hover {
+    background: #F9DCE2;
+    border: 1px solid #DF375B;
+    box-shadow: 0px 6px 16px rgba(223, 55, 91, 0.5);
+    color: #DF375B;
 }
 
 .navbar-light .navbar-nav .nav-link {
