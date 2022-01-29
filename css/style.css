@@ -878,7 +878,7 @@ footer {
 }
 
 /*______________________________________________desktop*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
     .left-row {
         position: relative;
         left: 4vw;
@@ -891,9 +891,9 @@ footer {
 }
 
 /*__________________________________tablet*/
-@media screen and (min-width: 768px) {
-    h3 {
-        margin-left: 13vw;
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+    .title {
+        margin-left: 16vw;
         text-align: left;
     }
 }
@@ -913,7 +913,7 @@ footer {
         left: 8vw;
     }
 
-    h3 {
+    .title {
         margin-left: 16vw;
         text-align: left;
     }
