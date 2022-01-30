@@ -102,7 +102,7 @@ body {
 }
 
 .subtitleBold {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -124,7 +124,7 @@ body {
 .btn-primary:hover {
     background: #F9DCE2;
     border: 1px solid #DF375B;
-    box-shadow: 0px 6px 16px rgba(223, 55, 91, 0.5);
+    box-shadow: 0 6px 16px rgba(223, 55, 91, 0.5);
     color: #DF375B;
 }
 
@@ -149,13 +149,13 @@ body {
 .btnYellow:hover {
     background: #FFF8E7;
     border: 1px solid #F5C042;
-    box-shadow: 0px 6px 16px rgba(250, 182, 13, 0.5);
+    box-shadow: 0 6px 16px rgba(250, 182, 13, 0.5);
     color: #F5C042;
 }
 
 .btnBlu {
     border-radius: 40px;
-    box-shadow: 0px 6px 16px rgba(41, 141, 159, 0.5);
+    box-shadow: 0 6px 16px rgba(41, 141, 159, 0.5);
     background-color: #298D9F;
     font-family: Comfortaa, cursive;
     font-style: normal;
@@ -168,7 +168,7 @@ body {
 .btnBlu:hover {
     background: #BED9DE;
     border: 1px solid #298D9F;
-    box-shadow: 0px 6px 16px rgba(41, 141, 159, 0.5);
+    box-shadow: 0 6px 16px rgba(41, 141, 159, 0.5);
     color: #298D9F;
 }
 
@@ -176,7 +176,7 @@ body {
     border-radius: 40px;
     background: #DF375B;
     padding: 5px 30px;
-    box-shadow: 0px 6px 16px rgba(223, 55, 91, 0.5);
+    box-shadow: 0 6px 16px rgba(223, 55, 91, 0.5);
     font-family: Comfortaa, cursive;
     font-style: normal;
     font-size: 18px;
@@ -189,13 +189,13 @@ body {
 .btnFucsia:hover {
     background: #F9DCE2;
     border: 1px solid #DF375B;
-    box-shadow: 0px 6px 16px rgba(223, 55, 91, 0.5);
+    box-shadow: 0 6px 16px rgba(223, 55, 91, 0.5);
     color: #DF375B;
 }
 
 .navbar-light .navbar-nav .nav-link {
     font-weight: 600;
-    color: #333C3F; /* si dovrebbe sovrascrivere la classe black di bootstrap con questo codice e utilizzarla... */
+    color: #333C3F;
 }
 
 .navbar-light .navbar-nav .nav-link.active {
@@ -281,7 +281,7 @@ body {
     background: grey;
 }
 
-/* icona calendario blu ce ne sono due____________________________________*/
+/* icona calendario blu n1/2____________________________________*/
 .when::before {
     content: url("../images/Eventi/calendar.svg");
     height: 30px;
@@ -292,19 +292,6 @@ body {
 .emailYellow_icon, .phoneYellow_icon {
     height: 4vh;
 }
-
-/*
-.phoneYellow::before {
-    content: url("../Icons/phoneyellow.svg");
-    height: 30px;
-    margin-right: 8px;
-}*/
-/*
-.emailYellow::before {
-    content: url("../Icons/emailyellow.svg");
-    height: 30px;
-    margin-right: 6px;
-}*/
 
 .email::before {
     content: url("../Icons/email1.svg");
@@ -360,25 +347,6 @@ body {
     border-style: hidden;
 }
 
-/* home_______________________________________________________*/
-/* main {
-    background-image: url("images/wawe.svg");
-    background-repeat: no-repeat;
-    background-size: 100vw;
-}
-
-.btn{
-    border-radius: 15px; rounded-pill non funziona
-}
-#bg2 {
-    position: relative;
-    z-index: -1;
-    width: 100vw;
-    background-size: contain;
-    background-position-y: top;
-}
- */
-
 /* Home____________________________________________*/
 .bgrhome {
     background-image: url("../images/index/onda_home.png");
@@ -420,7 +388,6 @@ body {
     }
 }
 
-
 .zindex1 {
     z-index: 2;
 }
@@ -434,9 +401,8 @@ body {
     background-color: #FCFCFC;
     border-radius: 40px;
     margin-top: -80px;
-    box-shadow: 0px 10px 50px 0px #91A8D533;
+    box-shadow: 0 10px 50px 0 #91A8D533;
 }
-
 
 .noborder {
     border-style: none;
@@ -456,7 +422,6 @@ body {
     margin-top: 48px;
     height: 500px;
 }
-
 
 /* Occasioni____________________________________________*/
 .bgrOccasioni {
@@ -482,10 +447,9 @@ body {
 .accordionHeader {
     border-style: none;
     background: #FFFFFF;
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
-
 
 .icontitle::after {
     content: url("../Icons/frecciaaccordion.svg");
@@ -495,12 +459,10 @@ body {
     content: url("../Icons/frecciasuaccordion.svg");
 }
 
-
 .accordionBody {
     border-style: none;
     background-color: #FFFFFF;
 }
-
 
 .btnoffer {
     background: #FFFFFF;
@@ -514,7 +476,7 @@ body {
 
 .btnoffer:focus {
     border: 2px solid #298D9F;
-    box-shadow: 0px 6px 16px rgba(41, 141, 159, 0.5);
+    box-shadow: 0 6px 16px rgba(41, 141, 159, 0.5);
 }
 
 /* Didattica____________________________________________*/
@@ -533,7 +495,6 @@ body {
 
 .icontitle2::after {
     content: url("../Icons/frecciafucsia2.svg");
-
 }
 
 .icontitle2.active::after {
@@ -555,14 +516,13 @@ body {
     height: 617px;
 }
 
-
 .googlemap {
     width: 75%;
 }
 
 .bordermaps {
     border-radius: 40px;
-    box-shadow: 0px 4px 30px 0px #00000033;
+    box-shadow: 0 4px 30px 0 #00000033;
 }
 
 /* Eventi____________________________________________*/
@@ -601,17 +561,15 @@ body {
 }
 
 .impressionismowawe {
-    /* background-image: url("images/Quartieri/sfondo_impressionismo.png");*/
     height: 85vh;
     background-size: cover;
 }
 
 .section-impressionismo, .section-street-art, .section-surrealismo {
-    position: relative; /* in questo modo le onde in position:absolute si posizionano sopra le section senza impostare z-index*/
+    position: relative;
 }
 
-.section-impressionismo .container-fluid /* non ho capito la seconda classe*/
-{
+.section-impressionismo .container-fluid {
     background: linear-gradient(
             180deg, rgb(230 103 71) 0%, rgb(241, 154, 94) 100%);
 }
@@ -659,7 +617,7 @@ body {
 /* surrealismo*/
 
 .section-surrealismo {
-    position: relative; /* serve per posizionarvi sopra l'onda arancione*/
+    position: relative;
 }
 
 .surrealismo {
@@ -710,7 +668,7 @@ body {
     z-index: 100;
 }
 
-/*__________- street art__________________*/
+/*__________ street art__________________*/
 
 .section-street-art {
     background: rgb(102, 123, 40);
@@ -763,8 +721,6 @@ p.d-block {
     p.d-block-tight {
         width: 40vw;
     }
-
-    /* occorre aggiustarle bene per la responsiveness ma funziona*/
 }
 
 /*form*______________*/
@@ -830,7 +786,7 @@ footer {
     z-index: 1000;
 }
 
-/*#######mobile_Quartieri###########*/
+/*____________mobile_______*/
 @media only screen and (max-width: 320px) {
     .kiss {
         display: none;
@@ -889,7 +845,7 @@ footer {
 }
 
 
-/* _____________________________________pagina eventi_______________*/
+/* ________________pagina eventi_______________*/
 .margin-left-h3 {
     margin-left: 9vw;
 }
