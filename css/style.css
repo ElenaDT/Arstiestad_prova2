@@ -466,6 +466,13 @@ body {
 }
 
 /* Didattica____________________________________________*/
+
+@media screen and (max-width: 320px) {
+    .accordiontitle {
+        font-size: 20px !important;
+    }
+}
+
 .bgrDidattica {
     background: url("../images/didattica/SFONDO_DIDATTICA.png") no-repeat bottom;
     background-size: cover;
@@ -477,6 +484,7 @@ body {
     color: #DF375B;
     font-weight: bold;
 }
+
 
 .icontitle2::after {
     content: url("../Icons/frecciafucsia2.svg");
@@ -990,3 +998,4 @@ footer {
     height: 45px;
     margin-right: -50px;
 }
+
