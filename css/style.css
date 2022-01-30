@@ -416,18 +416,16 @@ body {
 
 /* Vivere la città____________________________________________*/
 .bgrVivere {
-    background: url("../images/ViverelaCittà/Header_VivereLaCittà1.png") no-repeat;
+    background: url("../images/ViverelaCittà/Header_VivereLaCittà1.png") no-repeat bottom;
     background-size: cover;
-    background-position: bottom;
     margin-top: 48px;
     height: 500px;
 }
 
 /* Occasioni____________________________________________*/
 .bgrOccasioni {
-    background: url("../images/occasioni/Header_occasioni.png") no-repeat;
+    background: url("../images/occasioni/Header_occasioni.png") no-repeat bottom;
     background-size: cover;
-    background-position: bottom;
     margin-top: 48px;
     height: 670px;
 }
@@ -481,9 +479,8 @@ body {
 
 /* Didattica____________________________________________*/
 .bgrDidattica {
-    background: url("../images/didattica/SFONDO_DIDATTICA.png") no-repeat;
+    background: url("../images/didattica/SFONDO_DIDATTICA.png") no-repeat bottom;
     background-size: cover;
-    background-position: bottom;
     margin-top: 48px;
     height: 600px;
 }
@@ -509,9 +506,8 @@ body {
 }
 
 .bgrRaggiungere {
-    background: url("../images/ComeRaggiungerci/header_COMERAGGIUNGERCI1.png") no-repeat;
+    background: url("../images/ComeRaggiungerci/header_COMERAGGIUNGERCI1.png") no-repeat bottom;
     background-size: cover;
-    background-position: bottom;
     margin-top: 48px;
     height: 617px;
 }
@@ -527,9 +523,8 @@ body {
 
 /* Eventi____________________________________________*/
 .bgrEventi {
-    background: url("../images/Eventi/Header_Eventi1.png") no-repeat;
+    background: url("../images/Eventi/Header_Eventi1.png") no-repeat bottom;
     background-size: cover;
-    background-position: bottom;
     margin-top: 48px;
     height: 617px;
 }
