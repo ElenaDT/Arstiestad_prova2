@@ -293,18 +293,6 @@ body {
     height: 4vh;
 }
 
-.email::before {
-    content: url("../Icons/email1.svg");
-    height: 30px;
-    margin-right: 6px;
-}
-
-.phone::before {
-    content: url("../Icons/phone1.svg");
-    height: 30px;
-    margin-right: 8px;
-}
-
 .positionimpress::before {
     content: url("../Icons/Vector.svg");
     height: 30px;
