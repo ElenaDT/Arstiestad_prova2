@@ -861,12 +861,12 @@ footer {
 @media screen and (min-width: 1000px) {
     .left-row {
         position: relative;
-        left: 4vw;
-        max-width: 46vw;
+        left: 7vw;
+        max-width: 43.5vw;
     }
 
     .w40vw {
-        max-width: 41.5vw;
+        max-width: 43.5vw;
     }
 }
 
@@ -878,9 +878,10 @@ footer {
     }
 
     .title {
-        margin-left: 16vw;
+        margin-left: 14vw;
         text-align: left;
     }
+
 
     .margin-left-timeline {
         margin-left: 4.5vw;
@@ -888,6 +889,10 @@ footer {
 
     .margin-right-timeline {
         margin-left: 4.5vw;
+    }
+
+    .months-span-column {
+        margin-right: 42vw;
     }
 }
 
@@ -907,7 +912,7 @@ footer {
     }
 
     .title {
-        margin-left: 16vw;
+        margin-left: 12vw;
         text-align: left;
     }
 
