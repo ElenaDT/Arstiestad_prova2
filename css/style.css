@@ -26,6 +26,7 @@ h2 {
     letter-spacing: -0.02em;
 }
 
+
 h3 {
     font-family: 'Comfortaa', cursive;
     font-style: normal;
@@ -463,6 +464,14 @@ body {
 .btnoffer:focus {
     border: 2px solid #298D9F;
     box-shadow: 0 6px 16px rgba(41, 141, 159, 0.5);
+}
+@media only screen and (max-width:320px ) {
+    .splide__arrow--next {
+        right: -0.5em;
+    }
+    .splide__arrow--prev {
+        left: -0.5em;
+    }
 }
 
 /* Didattica____________________________________________*/
@@ -1002,5 +1011,16 @@ footer {
 .nextphoto {
     height: 45px;
     margin-right: -50px;
+}
+
+@media only screen and (min-width: 768px) {
+    .prevphoto {
+        margin-left: -160px;
+    }
+
+    .nextphoto {
+
+        margin-right: -150px;
+    }
 }
 
