@@ -200,9 +200,8 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link.active {
-    color: rgb(223 55 91);
-!important;
-    text-decoration: underline;
+    color: rgb(223 55 91) !important;
+    text-decoration-line: underline;
     text-underline-offset: 4px;
     text-decoration-thickness: 0.15em;
     font-weight: bolder;
@@ -542,6 +541,10 @@ body {
     right: 50vw;
 }
 
+.fit-content-height {
+    height: fit-content
+}
+
 /* Quartieri____________________________________________*/
 
 /* impressionismo*/
@@ -704,7 +707,6 @@ body {
     background: -moz-linear-gradient(0deg, rgba(103, 125, 42, 1) 0%, rgba(255, 255, 255, 0) 34%);
     background: -webkit-linear-gradient(0deg, rgba(103, 125, 42, 1) 0%, rgba(255, 255, 255, 0) 34%);
     background: linear-gradient(0deg, rgba(103, 125, 42, 1) 0%, rgba(255, 255, 255, 0) 34%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#677d2a", endColorstr="#ffffff", GradientType=1)
 }
 
 p.d-block {
