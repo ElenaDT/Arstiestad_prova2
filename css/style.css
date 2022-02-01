@@ -231,11 +231,11 @@ body {
 }
 
 .nextphoto {
-    content: url("../images/nextphoto.svg");
+    content: url("../images/Icons/nextphoto.svg");
 }
 
 .prevphoto {
-    content: url("../images/prevphoto.svg");
+    content: url("../images/Icons/prevphoto.svg");
 }
 
 .whereblu::before {
@@ -245,31 +245,31 @@ body {
 }
 
 .whereyellow::before {
-    content: url("../images/positionyellow.svg");
+    content: url("../images/Icons/positionyellow.svg");
     height: 30px;
     margin-right: 10px;
 }
 
 .whereFucsia::before {
-    content: url("../images/posizionefucsia.svg");
+    content: url("../images/Icons/posizionefucsia.svg");
     height: 30px;
     margin-right: 10px;
 }
 
 .calendaryellow::before {
-    content: url("../images/calendaryellow.svg");
+    content: url("../images/Icons/calendaryellow.svg");
     height: 30px;
     margin-right: 10px;
 }
 
 .calendarfucsia::before {
-    content: url("../images/calnderiofucsia.svg");
+    content: url("../images/Icons/calnderiofucsia.svg");
     height: 30px;
     margin-right: 10px;
 }
 
 .calendarblu::before {
-    content: url("../images/calendarblu.svg");
+    content: url("../images/Icons/calendarblu.svg");
     height: 30px;
     margin-right: 10px;
 }
@@ -295,37 +295,37 @@ body {
 }
 
 .positionimpress::before {
-    content: url("../images/Vector.svg");
+    content: url("../images/Icons/Vector.svg");
     height: 30px;
     margin-right: 10px;
 }
 
 .calendarimpress::before {
-    content: url("../images/calendarioarancio.svg");
+    content: url("../images/Icons/calendarioarancio.svg");
     height: 30px;
     margin-right: 10px;
 }
 
 .positionsurr::before {
-    content: url("../images/posizionesurrealismo.svg");
+    content: url("../images/Icons/posizionesurrealismo.svg");
     height: 30px;
     margin-right: 10px;
 }
 
 .calendarsurr::before {
-    content: url("../images/calendariosurrealismo.svg");
+    content: url("../images/Icons/calendariosurrealismo.svg");
     height: 30px;
     margin-right: 10px;
 }
 
 .positionstreet::before {
-    content: url("../images/posiztionverde.svg");
+    content: url("../images/Icons/posiztionverde.svg");
     height: 30px;
     margin-right: 10px;
 }
 
 .calendarstreet::before {
-    content: url("../images/calendarverde.svg");
+    content: url("../images/Icons/calendarverde.svg");
     height: 30px;
     margin-right: 10px;
 }
@@ -439,11 +439,11 @@ body {
 }
 
 .icontitle::after {
-    content: url("../images/frecciaaccordion.svg");
+    content: url("../images/Icons/frecciaaccordion.svg");
 }
 
 .icontitle.active::after {
-    content: url("../images/frecciasuaccordion.svg");
+    content: url("../images/Icons/frecciasuaccordion.svg");
 }
 
 .accordionBody {
@@ -498,11 +498,11 @@ body {
 
 
 .icontitle2::after {
-    content: url("../images/frecciafucsia2.svg");
+    content: url("../images/Icons/frecciafucsia2.svg");
 }
 
 .icontitle2.active::after {
-    content: url("../images/frecciasu2.svg");
+    content: url("../images/Icons/frecciasu2.svg");
 }
 
 /* Come raggiungerci____________________________________________*/
