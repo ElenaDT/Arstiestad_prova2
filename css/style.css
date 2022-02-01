@@ -358,7 +358,7 @@ body {
 }
 
 .bgrCity {
-    background-image: url("../images/LaCitta/header_LaCittà1.png");
+    background-image: url("../images/LaCitta/header_LaCitta1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -405,7 +405,7 @@ body {
 
 /* Vivere la città____________________________________________*/
 .bgrVivere {
-    background: url("../images/ViverelaCittà/Header_VivereLaCittà1.png") no-repeat bottom;
+    background: url("../images/ViverelaCitta/Header_VivereLaCitta1.png") no-repeat bottom;
     background-size: cover;
     margin-top: 48px;
     height: 500px;
