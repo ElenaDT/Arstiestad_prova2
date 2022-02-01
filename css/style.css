@@ -542,6 +542,10 @@ body {
     right: 50vw;
 }
 
+.fit-content-height {
+    height: fit-content
+}
+
 /* Quartieri____________________________________________*/
 
 /* impressionismo*/
