@@ -465,10 +465,12 @@ body {
     border: 2px solid #298D9F;
     box-shadow: 0 6px 16px rgba(41, 141, 159, 0.5);
 }
-@media only screen and (max-width:320px ) {
+
+@media only screen and (max-width: 320px ) {
     .splide__arrow--next {
         right: -0.5em;
     }
+
     .splide__arrow--prev {
         left: -0.5em;
     }
@@ -720,6 +722,11 @@ p.d-block {
 
     p.d-block-tight {
         width: 40vw;
+    }
+
+    .street-art {
+        background-position: bottom;
+        height: 74vh;
     }
 }
 
